@@ -149,7 +149,7 @@ class VisualEffect;
 class WindZone; 
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
-class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
+class BoxCollider; 
 class CapsuleCollider; 
 class CharacterController; 
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
@@ -181,7 +181,7 @@ class SpriteShapeRenderer;
 class TilemapRenderer; 
 class TrailRenderer; 
 class VFXRenderer; 
-class Rigidbody; 
+class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
 class Rigidbody2D; 
 namespace TextRenderingPrivate { class TextMesh; } 
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
@@ -409,14 +409,14 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
 	//56. ParticleSystemRenderer
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//57. BoxCollider
-	RegisterUnityClass<BoxCollider>("Physics");
-	//58. Collider
+	//57. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//59. MeshCollider
+	//58. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//60. PhysicsManager
+	//59. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
+	//60. Rigidbody
+	RegisterUnityClass<Rigidbody>("Physics");
 	//61. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
 	//62. UI::Canvas

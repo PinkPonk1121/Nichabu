@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &96530307
 RectTransform:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &149209635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1353926018
 RectTransform:
   m_ObjectHideFlags: 0
@@ -902,12 +902,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9e9afe07d379e4aace49f6b18f52b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numOfItems: 2
+  numOfItems: 1
   itemArray: []
   x: {fileID: 96530308}
   y: {fileID: 149209636}
   z: {fileID: 1353926019}
-  itemPrefab: {fileID: 5901566723872563880, guid: 4871e4edaaca0ff44b70b792ab5550d0, type: 3}
+  meatPrefab: {fileID: 7320957952625238280, guid: 57ace87713e204188a9ca66af0cb6a21, type: 3}
+  veggiePrefab: {fileID: 136870040827751401, guid: bec339c41489d7643b08da7a1575a1a1, type: 3}
 --- !u!1 &1534986537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,7 +1083,7 @@ Transform:
   m_GameObject: {fileID: 1546789277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1509657763}
   m_RootOrder: 0

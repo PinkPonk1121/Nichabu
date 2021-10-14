@@ -253,6 +253,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody",
+            "fullManagedTypeName": "UnityEngine.Rigidbody",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scene1.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Collider",
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
@@ -264,15 +273,6 @@
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MeshCollider",
             "fullManagedTypeName": "UnityEngine.MeshCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scene1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scene1.unity"

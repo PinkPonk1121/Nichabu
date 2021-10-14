@@ -50,13 +50,13 @@ static const int32_t s_InvokerIndices[10] =
 	1107,
 	985,
 	306,
-	2023,
-	3859,
-	3805,
-	3508,
+	2024,
+	3860,
+	3806,
 	3509,
-	3506,
-	3810,
+	3510,
+	3507,
+	3811,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_InputModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule;

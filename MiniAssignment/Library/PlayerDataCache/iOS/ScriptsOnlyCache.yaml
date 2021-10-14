@@ -61,9 +61,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 64
+    - Class: 54
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -824,7 +824,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 8e74ef64ae85d28c8bdbfed8d0fc284f
+      Hash: 0417e7576960e0cbcace04d20caba295
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
