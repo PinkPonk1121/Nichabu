@@ -13,6 +13,7 @@ public class GameControl : MonoBehaviour
     public TMPro.TextMeshProUGUI timeText;
     public TMPro.TextMeshProUGUI scoreText;
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -37,5 +38,6 @@ public class GameControl : MonoBehaviour
             // Game over, stop the time
             Time.timeScale = 0;
         }
+        
     }
 }

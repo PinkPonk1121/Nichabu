@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Environment
     - GameControl
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -62,6 +63,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -106,6 +109,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4618}
     - Class: 114
       Script: {instanceID: 4838}
+    - Class: 114
+      Script: {instanceID: 26028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -817,6 +822,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8e74ef64ae85d28c8bdbfed8d0fc284f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Environment
   platform: 9
   scenePathNames:
   - Assets/Scene1.unity
