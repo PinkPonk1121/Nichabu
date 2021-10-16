@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Environment
     - GameControl
+    - potCollision
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -72,9 +73,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1634}
+    - Class: 114
+      Script: {instanceID: 1656}
     - Class: 114
       Script: {instanceID: 1798}
     - Class: 114
@@ -86,31 +89,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2630}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 3766}
+      Script: {instanceID: 3768}
     - Class: 114
-      Script: {instanceID: 4046}
+      Script: {instanceID: 4048}
     - Class: 114
-      Script: {instanceID: 4224}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 4530}
+      Script: {instanceID: 4532}
     - Class: 114
-      Script: {instanceID: 4618}
+      Script: {instanceID: 4620}
     - Class: 114
-      Script: {instanceID: 4838}
+      Script: {instanceID: 4840}
     - Class: 114
-      Script: {instanceID: 26028}
+      Script: {instanceID: 17638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,6 +195,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 2ba0d359afdaf12ddf87ae636a663b44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Environment
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -308,6 +317,12 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: collide
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -374,7 +389,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 7900a6a0311c87b30132303dc3105c2f
+      Hash: 0b6813aec656f4f5c3a10765b41d547b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl
@@ -824,11 +839,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 0417e7576960e0cbcace04d20caba295
+      Hash: 0d7af2a68b629afe8e7375678e39f528
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Environment
+    className: potCollision
   platform: 9
   scenePathNames:
   - Assets/Scene1.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build1
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build

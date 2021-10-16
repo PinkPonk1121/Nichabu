@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameControl : MonoBehaviour
 {
     // Score and time
-    public int score;
+    public static int score;
     public float time;
 
     // Text Canvas

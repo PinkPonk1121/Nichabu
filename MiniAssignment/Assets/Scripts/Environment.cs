@@ -10,16 +10,26 @@ public class Environment : MonoBehaviour
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
     public TMPro.TextMeshProUGUI y;
-    public TMPro.TextMeshProUGUI z;
-
+    public static TMPro.TextMeshProUGUI z;
+    // public GameObject controller;
     // public AudioSource itemSpawnSound;
     // public AudioSource itemCollectedSound;
     private int count = 0;
 
     [SerializeField] GameObject meatPrefab; // might add more eg. beefPre, porkPre, etc.
     [SerializeField] GameObject veggiePrefab;
-    
+    [SerializeField] GameObject pot;
 
+    ARFaceManager faceManager;
+    ARFace face;
+    // [SerializeField] ARRaycastManager arRayCastMng;
+
+    // private void onEnable()
+    // {
+    //     faceManager = FindObjectOfType<ARFaceManager>();
+        
+    //     face = ARFaceManager.trackables[0];
+    // }
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +43,9 @@ public class Environment : MonoBehaviour
         Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
         Vector3 screenCenter = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth/2, Camera.current.pixelHeight/2, 1.5f));
         
-  
+        List<ARRaycastHit> hits = new List<ARRaycastHit>();
+        // arRayCastMng.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
+
         while (count < numOfItems)
         { 
             // create new items as the game start
@@ -54,14 +66,26 @@ public class Environment : MonoBehaviour
         {            
             var foodBody = itemArray[i].GetComponent<Rigidbody>();
             foodBody.AddForce(new Vector3(0f, -0.2f, 0f), ForceMode.Impulse);
-            if (itemArray[i].transform.position.y < 0)
+            if (itemArray[i].transform.position.y < bottomLeft.y)
             {
                 itemArray[i].SetActive(false);
                 foodBody.velocity = Vector3.zero;
-                itemArray[i].transform.position = (new Vector3(Random.Range(bottomLeft.x, topRight.x), topRight.y, 1.3f));  
+                // v = new Vector3(Random.Range(bottomLeft.x, topRight.x));
+                // float r = (Random.Range(bottomLeft.x, topRight.x));
+                Vector3 sp = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Random.Range(0, Camera.current.pixelHeight), 1.5f));
+                itemArray[i].transform.position = (new Vector3(sp.x, sp.y, sp.z));  
+                itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
                 // RespawnFood(itemArray[i]);
+                x.text = "face pos" + face.transform.position.ToString();
+                // x.text = "Rotation" + Camera.main.transform.rotation.ToString();
+                y.text = "Rotation2" + Camera.main.transform.localEulerAngles.ToString();
+                // z.text = "sp " + sp.ToString();
+                // GameControl.score++;
+
                 itemArray[i].SetActive(true);
             }
+            OnCollision(meatPrefab);
+
         }
     }
 
@@ -73,10 +97,27 @@ public class Environment : MonoBehaviour
 
     // }
 
+    // private void OnCollisionEnter(Collision collision){
+    //     if (collision.gameObject.tag == "Meat"){
+    //         // eatSound.Play()
+    //         // var pts = controller.GetComponent<score>();
+    //         // pts++;
+    //         // Debug.Log(pts);
+    //         StartCoroutine(RespawnFood(collision.gameObject));
+    //     }
+    // }
+
+
+    private void OnCollision(GameObject obj){
+        //if obj collide with pot
+        // if (pot.GetChild(0).plane.transform.position.x - 0.01f <= obj.transform.position.x && pot.transform.position.x + 0.01f >= obj.transform.position.x && pot.transform.position.y + 0.01f <= obj.transform.position.y){
+        //     GameControl.score++;
+        // }
+    }
+
     IEnumerator RespawnFood(GameObject food) {
         Vector3 topRight = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth, Camera.current.pixelHeight, 1.5f));
         Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
-        // foodEaten.Play();
         food.SetActive(false);
         var foodBody = food.GetComponent<Rigidbody>();
         foodBody.velocity = Vector3.zero;
