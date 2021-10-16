@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Environment
     - GameControl
-    - potCollision
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -112,8 +111,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4620}
     - Class: 114
       Script: {instanceID: 4840}
-    - Class: 114
-      Script: {instanceID: 17638}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -197,7 +194,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 2ba0d359afdaf12ddf87ae636a663b44
+      Hash: 9071c399228df166206404846c33df16
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -837,12 +834,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 0d7af2a68b629afe8e7375678e39f528
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: potCollision
   platform: 9
   scenePathNames:
   - Assets/Scene1.unity

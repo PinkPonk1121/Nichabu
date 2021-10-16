@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 852409947995192275}
   m_Layer: 0
   m_Name: AR Default Face
-  m_TagString: Untagged
+  m_TagString: Pot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +136,6 @@ GameObject:
   - component: {fileID: 8243461393527340470}
   - component: {fileID: 5785732199101214135}
   - component: {fileID: 3140571651849121742}
-  - component: {fileID: 2031890624467318709}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -221,16 +220,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2031890624467318709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5641371179608606756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a57f7a64dbebc43278abb1845ecacae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pot: {fileID: 5641371179608606756}

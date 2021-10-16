@@ -906,9 +906,10 @@ MonoBehaviour:
   itemArray: []
   x: {fileID: 96530308}
   y: {fileID: 149209636}
-  z: {fileID: 1353926019}
   meatPrefab: {fileID: 7320957952625238280, guid: 57ace87713e204188a9ca66af0cb6a21, type: 3}
   veggiePrefab: {fileID: 136870040827751401, guid: bec339c41489d7643b08da7a1575a1a1, type: 3}
+  pot: {fileID: 1589055005286389752, guid: 6a5ffa6636bfc49689bc8a29c8048f86, type: 3}
+  plane: []
 --- !u!1 &1534986537
 GameObject:
   m_ObjectHideFlags: 0

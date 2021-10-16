@@ -19,21 +19,25 @@ public class Environment : MonoBehaviour
     [SerializeField] GameObject meatPrefab; // might add more eg. beefPre, porkPre, etc.
     [SerializeField] GameObject veggiePrefab;
     [SerializeField] GameObject pot;
-
+    public GameObject[] plane;
     ARFaceManager faceManager;
     ARFace face;
+
     // [SerializeField] ARRaycastManager arRayCastMng;
 
-    // private void onEnable()
-    // {
-    //     faceManager = FindObjectOfType<ARFaceManager>();
+    private void onEnable()
+    {
+        faceManager = GetComponent<ARFaceManager>();
         
-    //     face = ARFaceManager.trackables[0];
-    // }
+        face = faceManager.trackables;
+    }
     // Start is called before the first frame update
     void Start()
     {
         itemArray = new GameObject[numOfItems];
+        // plane = GameObject.FindGameObjectsWithTag("Pot");
+        // x.text = "lenght plane[]" + plane.Length.ToString();
+
     }
 
     // Update is called once per frame
@@ -59,6 +63,7 @@ public class Environment : MonoBehaviour
             // }
             itemArray[count] = Instantiate(meatPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));
             // itemSpawnSound.Play();
+            
             count++;
         }
 
@@ -76,10 +81,12 @@ public class Environment : MonoBehaviour
                 itemArray[i].transform.position = (new Vector3(sp.x, sp.y, sp.z));  
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
                 // RespawnFood(itemArray[i]);
-                x.text = "face pos" + face.transform.position.ToString();
+                // x.text = "face pos" + face.transform.position.ToString();
                 // x.text = "Rotation" + Camera.main.transform.rotation.ToString();
                 y.text = "Rotation2" + Camera.main.transform.localEulerAngles.ToString();
                 // z.text = "sp " + sp.ToString();
+                // x.text = "Pot position" + ARFaceManager.facePrefab.transform.position.ToString();
+                // x.text = "Pot position" + plane[0].transform.position.ToString();
                 // GameControl.score++;
 
                 itemArray[i].SetActive(true);
@@ -110,9 +117,15 @@ public class Environment : MonoBehaviour
 
     private void OnCollision(GameObject obj){
         //if obj collide with pot
-        // if (pot.GetChild(0).plane.transform.position.x - 0.01f <= obj.transform.position.x && pot.transform.position.x + 0.01f >= obj.transform.position.x && pot.transform.position.y + 0.01f <= obj.transform.position.y){
+        // foreach (ARFace face in faceManager.trackables)
+        // {
         //     GameControl.score++;
+        //     // if (pot.GetChild(0).plane.transform.position.x - 0.01f <= obj.transform.position.x && pot.transform.position.x + 0.01f >= obj.transform.position.x && pot.transform.position.y + 0.01f <= obj.transform.position.y){
+        //     if (face.transform.position.x - 0.01f <= obj.transform.position.x && face.transform.position.x + 0.01f >= obj.transform.position.x && face.transform.position.y + 0.01f <= obj.transform.position.y){
+        //         GameControl.score++;
+        //     }
         // }
+        
     }
 
     IEnumerator RespawnFood(GameObject food) {

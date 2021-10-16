@@ -43,7 +43,6 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Environment" preserve="nothing"/>
 		<type fullname="GameControl" preserve="nothing"/>
-		<type fullname="potCollision" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
