@@ -21,7 +21,7 @@ public class Environment : MonoBehaviour
     [SerializeField] GameObject pot;
     public GameObject[] plane;
     ARFaceManager faceManager;
-    ARFace face;
+//     ARFace face;
 
     // [SerializeField] ARRaycastManager arRayCastMng;
 
