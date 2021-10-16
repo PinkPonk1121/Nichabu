@@ -25,16 +25,17 @@ public class Environment : MonoBehaviour
 
     // [SerializeField] ARRaycastManager arRayCastMng;
 
-    private void onEnable()
-    {
-        faceManager = GetComponent<ARFaceManager>();
+//     private void onEnable()
+//     {
+//         faceManager = GetComponent<ARFaceManager>();
         
-        face = faceManager.trackables;
-    }
+//         face = faceManager.trackables;
+//     }
     // Start is called before the first frame update
     void Start()
     {
         itemArray = new GameObject[numOfItems];
+        faceManager = GetComponent<ARFaceManager>();
         // plane = GameObject.FindGameObjectsWithTag("Pot");
         // x.text = "lenght plane[]" + plane.Length.ToString();
 
@@ -91,7 +92,11 @@ public class Environment : MonoBehaviour
 
                 itemArray[i].SetActive(true);
             }
-            OnCollision(meatPrefab);
+            foreach (ARFace face in faceManager.trackables)
+            {
+                x.text = "Pot position" + face.transform.position.ToString();
+            }
+//             OnCollision(meatPrefab);
 
         }
     }
