@@ -10,7 +10,7 @@ public class Environment : MonoBehaviour
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
     public TMPro.TextMeshProUGUI y;
-    public static TMPro.TextMeshProUGUI z;
+    public TMPro.TextMeshProUGUI z;
     // public GameObject controller;
     // public AudioSource itemSpawnSound;
     // public AudioSource itemCollectedSound;
@@ -18,27 +18,14 @@ public class Environment : MonoBehaviour
 
     [SerializeField] GameObject meatPrefab; // might add more eg. beefPre, porkPre, etc.
     [SerializeField] GameObject veggiePrefab;
-    [SerializeField] GameObject pot;
+    private Pot pot;
     public GameObject[] plane;
     ARFaceManager faceManager;
-//     ARFace face;
 
-    // [SerializeField] ARRaycastManager arRayCastMng;
-
-//     private void onEnable()
-//     {
-//         faceManager = GetComponent<ARFaceManager>();
-        
-//         face = faceManager.trackables;
-//     }
-    // Start is called before the first frame update
     void Start()
     {
         itemArray = new GameObject[numOfItems];
         faceManager = GetComponent<ARFaceManager>();
-        // plane = GameObject.FindGameObjectsWithTag("Pot");
-        // x.text = "lenght plane[]" + plane.Length.ToString();
-
     }
 
     // Update is called once per frame
@@ -71,32 +58,48 @@ public class Environment : MonoBehaviour
         for (int i = 0; i < numOfItems; i++)
         {            
             var foodBody = itemArray[i].GetComponent<Rigidbody>();
-            foodBody.AddForce(new Vector3(0f, -0.2f, 0f), ForceMode.Impulse);
+            foodBody.AddForce(new Vector3(0f, -0.06f, 0f), ForceMode.Impulse);
             if (itemArray[i].transform.position.y < bottomLeft.y)
             {
                 itemArray[i].SetActive(false);
                 foodBody.velocity = Vector3.zero;
-                // v = new Vector3(Random.Range(bottomLeft.x, topRight.x));
-                // float r = (Random.Range(bottomLeft.x, topRight.x));
-                Vector3 sp = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Random.Range(0, Camera.current.pixelHeight), 1.5f));
-                itemArray[i].transform.position = (new Vector3(sp.x, sp.y, sp.z));  
+                
+                Vector3 potPos = new Vector3(0f,0f,0f);
+                Vector3 camPos = Camera.current.transform.position;
+                foreach (ARFace face in faceManager.trackables)
+                {
+                    if (pot == null){
+                        pot = face.GetComponentInChildren<Pot>();
+                    }
+                    x.text = "Face position" + face.transform.position.ToString();
+                    potPos = pot.transform.position;
+                    if (pot != null){
+                        z.text = "Pot position" + pot.transform.position.ToString();
+                    }
+                    else{
+                        z.text = "Pot position is null";
+                    }
+                }
+                Vector3 camToPot = potPos - camPos;
+                Vector3 camFor = Camera.current.transform.forward;
+                Vector3 camToPlane = Vector3.Project(camToPot, camFor);
+                float depth = camToPlane.magnitude;
+                y.text = depth.ToString();
+                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                itemArray[i].transform.position = spawnPosition;  
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
-                // RespawnFood(itemArray[i]);
                 // x.text = "face pos" + face.transform.position.ToString();
                 // x.text = "Rotation" + Camera.main.transform.rotation.ToString();
-                y.text = "Rotation2" + Camera.main.transform.localEulerAngles.ToString();
-                // z.text = "sp " + sp.ToString();
-                // x.text = "Pot position" + ARFaceManager.facePrefab.transform.position.ToString();
-                // x.text = "Pot position" + plane[0].transform.position.ToString();
+                // y.text = "Rotation2" + Camera.main.transform.localEulerAngles.ToString();
+                // y.text = "Meat pos" + itemArray[0].transform.position.ToString();
+                // x.text = "Pot position" + Manager.facePrefab.transform.position.ToString();
+                // z.text = "Pot position" + test.facePrefab.ToString();
                 // GameControl.score++;
 
                 itemArray[i].SetActive(true);
             }
-            foreach (ARFace face in faceManager.trackables)
-            {
-                x.text = "Pot position" + face.transform.position.ToString();
-            }
-//             OnCollision(meatPrefab);
+
+            
 
         }
     }
@@ -109,42 +112,22 @@ public class Environment : MonoBehaviour
 
     // }
 
-    // private void OnCollisionEnter(Collision collision){
-    //     if (collision.gameObject.tag == "Meat"){
-    //         // eatSound.Play()
-    //         // var pts = controller.GetComponent<score>();
-    //         // pts++;
-    //         // Debug.Log(pts);
-    //         StartCoroutine(RespawnFood(collision.gameObject));
-    //     }
+    // public static void FoodRespawn(GameObject f){
+    //     StartCoroutine(RespawnFood(f));
     // }
 
-
-    private void OnCollision(GameObject obj){
-        //if obj collide with pot
-        // foreach (ARFace face in faceManager.trackables)
-        // {
-        //     GameControl.score++;
-        //     // if (pot.GetChild(0).plane.transform.position.x - 0.01f <= obj.transform.position.x && pot.transform.position.x + 0.01f >= obj.transform.position.x && pot.transform.position.y + 0.01f <= obj.transform.position.y){
-        //     if (face.transform.position.x - 0.01f <= obj.transform.position.x && face.transform.position.x + 0.01f >= obj.transform.position.x && face.transform.position.y + 0.01f <= obj.transform.position.y){
-        //         GameControl.score++;
-        //     }
-        // }
+    public static IEnumerator RespawnFood(GameObject food, float depth) {
         
-    }
-
-    IEnumerator RespawnFood(GameObject food) {
-        Vector3 topRight = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth, Camera.current.pixelHeight, 1.5f));
-        Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
         food.SetActive(false);
         var foodBody = food.GetComponent<Rigidbody>();
         foodBody.velocity = Vector3.zero;
 
         yield return new WaitForSeconds(Random.Range(1f, 2f));
 
+        Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
         // foodSpawn.Play();
-        food.transform.position = (new Vector3(Random.Range(bottomLeft.x, topRight.x), topRight.y, 1.3f));  
+        food.transform.position = spawnPosition;  
         food.SetActive(true);
-        foodBody.AddForce(new Vector3(0f, -0.2f, 0f), ForceMode.Impulse);
+        foodBody.AddForce(new Vector3(0f, -0.06f, 0f), ForceMode.Impulse);
     }
 }

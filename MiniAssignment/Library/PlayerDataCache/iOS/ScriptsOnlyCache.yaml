@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Environment
     - GameControl
+    - Pot
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -65,6 +66,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -111,6 +114,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4620}
     - Class: 114
       Script: {instanceID: 4840}
+    - Class: 114
+      Script: {instanceID: 21222}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -194,7 +199,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 9071c399228df166206404846c33df16
+      Hash: 1c0a8254a025566781b1ff6847e856e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -834,6 +839,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pot
   platform: 9
   scenePathNames:
   - Assets/Scene1.unity
