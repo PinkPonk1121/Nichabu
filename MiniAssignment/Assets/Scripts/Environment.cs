@@ -6,7 +6,8 @@ using UnityEngine.XR.ARFoundation;
 public class Environment : MonoBehaviour
 {
 
-    public int numOfItems = 3;
+    public int numOfItems = 1;
+    public int randCount;
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
     public TMPro.TextMeshProUGUI y;
@@ -16,9 +17,10 @@ public class Environment : MonoBehaviour
     // public AudioSource itemCollectedSound;
     private int count = 0;
 
-    [SerializeField] GameObject meatPrefab; // might add more eg. beefPre, porkPre, etc.
-    [SerializeField] GameObject salmonPrefab;
-    [SerializeField] GameObject veggie1Prefab;
+    [SerializeField] GameObject foodPrefab;
+
+    public Material[] foodMat;
+    public Material salmon;
 
     private Pot pot;
     public GameObject[] plane;
@@ -27,11 +29,8 @@ public class Environment : MonoBehaviour
     void Start()
     {
         itemArray = new GameObject[numOfItems];
-        itemArray[0] = GameObject.FindGameObjectWithTag("Meat");
-        itemArray[1] = GameObject.FindGameObjectWithTag("Salmon");
-        itemArray[2] = GameObject.FindGameObjectWithTag("Veggie");
         faceManager = GetComponent<ARFaceManager>();
-
+        
     }
 
     // Update is called once per frame
@@ -47,11 +46,8 @@ public class Environment : MonoBehaviour
 
         while (count < numOfItems)
         { 
-            //instantiate meat using the position above
-            // itemArray[count] = Instantiate(meatPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));            
-            // count++;
-
-            Instantiate(itemArray[count], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
+            // Instantiate food using the position above
+            itemArray[count] = Instantiate(foodPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));            
             count++;
         }
         // Instantiate(itemArray[UnityEngine.Random.Range(0, 2)], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
@@ -109,7 +105,7 @@ public class Environment : MonoBehaviour
     }
 
     //coroutines for respawn the food
-    public static IEnumerator RespawnFood(GameObject food, float depth) {
+    public static IEnumerator RespawnFood(GameObject food, float depth, Material[] foodMat, Material salmon) {
         //set the food to invisible
         food.SetActive(false);
         //set the velocity to zero
@@ -119,11 +115,37 @@ public class Environment : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(1f, 2f));
 
         //set the new position to spawn food
+
+        int randCount = UnityEngine.Random.Range(0, 9);
+        if (randCount < 6)
+        {
+            food.tag = "Meat";
+            food.GetComponent<Renderer>().material = foodMat[Random.Range(0, 3)];
+        }
+        else if (randCount < 9)
+        {
+            food.tag = "Veggie";
+            food.GetComponent<Renderer>().material = foodMat[Random.Range(3, foodMat.Length)];
+        }
+        else
+        {
+            food.tag = "Salmon";
+            food.GetComponent<Renderer>().material = salmon;
+        }
+
         Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
         food.transform.position = spawnPosition; 
         //make the food visible 
         food.SetActive(true);
         //add force to the food
         foodBody.AddForce(new Vector3(0f, -0.06f, 0f), ForceMode.Impulse);
+    }
+
+    Material SelectRandomMeat () {
+        return foodMat[Random.Range(0, 3)];
+    }
+
+    Material SelectRandomVeggie () {
+        return foodMat[Random.Range(3, foodMat.Length)];
     }
 }

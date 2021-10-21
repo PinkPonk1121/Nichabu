@@ -903,13 +903,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numOfItems: 1
+  randCount: 0
   itemArray: []
   x: {fileID: 96530308}
   y: {fileID: 149209636}
   z: {fileID: 1353926019}
-  meatPrefab: {fileID: 7320957952625238280, guid: 57ace87713e204188a9ca66af0cb6a21, type: 3}
-  salmonPrefab: {fileID: 0}
-  veggie1Prefab: {fileID: 0}
+  foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
+  foodMat:
+  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
+  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
+  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
+  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
+  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
+  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
+  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
+  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
+  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
   plane: []
 --- !u!1 &1534986537
 GameObject:

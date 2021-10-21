@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Pot : MonoBehaviour
 {
+    public Material[] foodMat;
+    public Material salmon;
 
     void Start()
     {
@@ -27,21 +29,21 @@ public class Pot : MonoBehaviour
             //increase the score
             GameControl.score++;
             //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
+            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Veggie")
         {
             //increase the score
             GameControl.score--;
             //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
+            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Salmon")
         {
             //increase the score
             GameControl.score += 5;
             //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
+            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
 
     }

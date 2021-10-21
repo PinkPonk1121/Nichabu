@@ -6,23 +6,36 @@ public class TextureRenderer : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public Material[] _materials;
-    public Renderer _renderer;
+    public Material[] foodMat;
+    public Material salmon;
 
     void Start()
     {
-    ChangeMaterial();
+
+        int cnt = UnityEngine.Random.Range(0, 9);
+        if (cnt < 6)
+        {
+            gameObject.tag = "Meat";
+            GetComponent<Renderer>().material = SelectRandomMeat();
+        }
+        else if (cnt < 9)
+        {
+            gameObject.tag = "Veggie";
+            GetComponent<Renderer>().material = SelectRandomVeggie();
+        }
+        else
+        {
+            gameObject.tag = "Salmon";
+            GetComponent<Renderer>().material = salmon;
+        }
+
     }
 
-    void Reset () {
-    _renderer = GetComponent<Renderer>();
+    Material SelectRandomMeat () {
+        return foodMat[Random.Range(0, 3)];
     }
 
-    void ChangeMaterial () {
-    _renderer.material = SelectRandomMaterial();
-    }
-
-    Material SelectRandomMaterial () {
-    return _materials[Random.Range(0, _materials.Length)];
+    Material SelectRandomVeggie () {
+        return foodMat[Random.Range(3, foodMat.Length)];
     }
 }
