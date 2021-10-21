@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -908,7 +908,8 @@ MonoBehaviour:
   y: {fileID: 149209636}
   z: {fileID: 1353926019}
   meatPrefab: {fileID: 7320957952625238280, guid: 57ace87713e204188a9ca66af0cb6a21, type: 3}
-  veggiePrefab: {fileID: 136870040827751401, guid: bec339c41489d7643b08da7a1575a1a1, type: 3}
+  salmonPrefab: {fileID: 0}
+  veggie1Prefab: {fileID: 0}
   plane: []
 --- !u!1 &1534986537
 GameObject:

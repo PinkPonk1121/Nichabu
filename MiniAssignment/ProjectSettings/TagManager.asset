@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Meat
   - Pot
+  - Veggie
+  - Salmon
   layers:
   - Default
   - TransparentFX
