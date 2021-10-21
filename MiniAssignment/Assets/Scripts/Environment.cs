@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 public class Environment : MonoBehaviour
 {
 
-    public int numOfItems = 1;
+    public int numOfItems = 3;
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
     public TMPro.TextMeshProUGUI y;
@@ -17,7 +17,9 @@ public class Environment : MonoBehaviour
     private int count = 0;
 
     [SerializeField] GameObject meatPrefab; // might add more eg. beefPre, porkPre, etc.
-    [SerializeField] GameObject veggiePrefab;
+    [SerializeField] GameObject salmonPrefab;
+    [SerializeField] GameObject veggie1Prefab;
+
     private Pot pot;
     public GameObject[] plane;
     ARFaceManager faceManager;
@@ -25,7 +27,11 @@ public class Environment : MonoBehaviour
     void Start()
     {
         itemArray = new GameObject[numOfItems];
+        itemArray[0] = GameObject.FindGameObjectWithTag("Meat");
+        itemArray[1] = GameObject.FindGameObjectWithTag("Salmon");
+        itemArray[2] = GameObject.FindGameObjectWithTag("Veggie");
         faceManager = GetComponent<ARFaceManager>();
+
     }
 
     // Update is called once per frame
@@ -42,9 +48,14 @@ public class Environment : MonoBehaviour
         while (count < numOfItems)
         { 
             //instantiate meat using the position above
-            itemArray[count] = Instantiate(meatPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));            
+            // itemArray[count] = Instantiate(meatPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));            
+            // count++;
+
+            Instantiate(itemArray[count], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
             count++;
         }
+        // Instantiate(itemArray[UnityEngine.Random.Range(0, 2)], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
+        
 
         //loop through all meats but we only have 1 meat for now
         for (int i = 0; i < numOfItems; i++)
