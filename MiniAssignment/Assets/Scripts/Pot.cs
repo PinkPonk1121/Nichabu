@@ -29,5 +29,20 @@ public class Pot : MonoBehaviour
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
         }
+        if (collision.gameObject.tag == "Veggie")
+        {
+            //increase the score
+            GameControl.score--;
+            //start to respawn food 
+            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
+        }
+        if (collision.gameObject.tag == "Salmon")
+        {
+            //increase the score
+            GameControl.score += 5;
+            //start to respawn food 
+            StartCoroutine(Environment.RespawnFood(collision.gameObject, depth));
+        }
+
     }
 }
