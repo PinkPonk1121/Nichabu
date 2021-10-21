@@ -15,11 +15,11 @@ C:/Users/Pink/Documents/GitHub/Nichabu/MiniAssignment
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61101
+64491
 Successfully changed project path to: C:/Users/Pink/Documents/GitHub/Nichabu/MiniAssignment
 C:/Users/Pink/Documents/GitHub/Nichabu/MiniAssignment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,109 +35,107 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002331 seconds.
+Registered in 0.002334 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.832 seconds
+- Completed reload, in  2.107 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2832ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (2107ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (515ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (154ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004080 seconds.
+Registered in 0.004788 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000217F446EE10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000002190E7C4020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4E005E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-0000021908D9BE20 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F47F9220 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000021908C37DA0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F475F340 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000021908CD6C70 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4E005E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000021908CD6C70 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8FE4620 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002190D489D10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F448FE40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000021908EE3840 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA155A20 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000219088A5A50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA195DC0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file data-000002190DFCA9F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA7E8010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000021908C8C2E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA66C1A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-0000021908C19230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F437E020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002190E7D8160 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F44A5850 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-0000021909390350 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA66C1A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000002190D489D10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4758030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002190D635410 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9001020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002190D489D10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F448FE40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000021908E1F020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA7E8010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000021908ADA110 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F47E6450 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000021908B6DFE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4541020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000002190EDC4030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F43D9590 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000021908E1F020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9A1D020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000021909391040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9C4B090 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-000002190DF95E30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F446EE10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000002190DF95E30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F46FC830 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000021908DCE8A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8FE4620 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000021908DCE8A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4392A30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-0000021908AFD010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8DBA260 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file data-0000021908C47DB0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA1664A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-000002190D2F1A50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9C3FAB0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4392A30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-0000021908DCE8A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
@@ -145,48 +143,48 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, th
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  1.189 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1448ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1198ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
+			SetupTypeCache (283ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (574ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (429ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (285ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
+Unloading 1794 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.7 MB.
+System memory in use after: 80.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2234.
-Total: 2.944400 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.585200 ms  DeleteObjects: 0.064400 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2235.
+Total: 3.287700 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.734800 ms  DeleteObjects: 0.184800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -201,155 +199,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Environment.cs
-  artifactKey: Guid(3e9e9afe07d379e4aace49f6b18f52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Environment.cs using Guid(3e9e9afe07d379e4aace49f6b18f52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd108e332402e3e61873f86b3e019a8') in 0.044879 seconds 
-  Import took 0.047985 seconds .
+  path: Assets/Prefabs/Food Variant.prefab
+  artifactKey: Guid(6314b27da0c30ea4f8fae458553f2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food Variant.prefab using Guid(6314b27da0c30ea4f8fae458553f2ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ca5c6c19057c2a7cdefd739028efe') in 0.150100 seconds 
+  Import took 0.152868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.232245 seconds.
-  path: Assets/Textures/meat
-  artifactKey: Guid(5ec3c49d68f64d64b83c8d40b191d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/meat using Guid(5ec3c49d68f64d64b83c8d40b191d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7bcea1f0a4f5f074fac7e936cf21db') in 0.009033 seconds 
-  Import took 0.012655 seconds .
+  Time since last request: 23.870344 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dae00514b749a3ba3d10fd07bd2325') in 0.042433 seconds 
+  Import took 0.045872 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.382587 seconds.
-  path: Assets/Textures/Meat
-  artifactKey: Guid(5ec3c49d68f64d64b83c8d40b191d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Meat using Guid(5ec3c49d68f64d64b83c8d40b191d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093a67a3a9d6089a67e0a8ac3986f61c') in 0.011205 seconds 
-  Import took 0.015991 seconds .
+  Time since last request: 0.001615 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dae00514b749a3ba3d10fd07bd2325') in 0.033294 seconds 
+  Import took 0.036712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.204281 seconds.
-  path: Assets/Textures/Veggie
-  artifactKey: Guid(b3dd6b744ae3b2e4b8e8be72d5a440f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Veggie using Guid(b3dd6b744ae3b2e4b8e8be72d5a440f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235f1e5606fe6844512269b6e77ca67a') in 0.009416 seconds 
-  Import took 0.015753 seconds .
+  Time since last request: 40.023391 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a131bac2fd42061b69540d6c535aa3') in 0.030188 seconds 
+  Import took 0.034038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.514994 seconds.
-  path: Assets/Textures/Salmon.png
-  artifactKey: Guid(e1fed2ab744423b49b1e3210b942f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Salmon.png using Guid(e1fed2ab744423b49b1e3210b942f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96de1d182e5334ef0bc6693d8fe6ad7c') in 0.088644 seconds 
-  Import took 0.092540 seconds .
+  Time since last request: 0.973006 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087de9d297b92fb3ac60bca74dda4310') in 0.031883 seconds 
+  Import took 0.035273 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.343946 seconds.
-  path: Assets/Textures/Veggie/Veg1.png
-  artifactKey: Guid(aedc561500cd6f2489352a7c645a1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Veggie/Veg1.png using Guid(aedc561500cd6f2489352a7c645a1e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c26489112b4dcdee8101158b932a9b') in 0.034799 seconds 
-  Import took 0.037497 seconds .
+  Time since last request: 0.771961 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11dbc0d326752b7718ce21d2389d3ea') in 0.031183 seconds 
+  Import took 0.034608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Textures/Veggie/Veg2.png
-  artifactKey: Guid(bf4a15cc14ce02e44a3da73a16df9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Veggie/Veg2.png using Guid(bf4a15cc14ce02e44a3da73a16df9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fe791b845ac5f4744fa65dfaf117ce') in 0.039241 seconds 
-  Import took 0.043813 seconds .
+  Time since last request: 0.580666 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74d418147dd8af7987094b33bde52e3') in 0.030683 seconds 
+  Import took 0.033534 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Textures/Veggie/Veg4.png
-  artifactKey: Guid(61cab961f8ac83441b0f02e77d462f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Veggie/Veg4.png using Guid(61cab961f8ac83441b0f02e77d462f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa2288a4b917bce9301d03a4ef55435') in 0.047571 seconds 
-  Import took 0.051212 seconds .
+  Time since last request: 0.773185 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f92453351e8b2702025cebd9f23426') in 0.028330 seconds 
+  Import took 0.032183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.395740 seconds.
-  path: Assets/Textures/Meat/Bacon.png
-  artifactKey: Guid(2860d2049a5430246a8c9e4d342d4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Meat/Bacon.png using Guid(2860d2049a5430246a8c9e4d342d4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b6a51f14bd4e6cc32f374f6f861c35') in 0.032632 seconds 
-  Import took 0.036761 seconds .
+  Time since last request: 34.427187 seconds.
+  path: Assets/Materials/Veggie 2.mat
+  artifactKey: Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Veggie 2.mat using Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58bebc6980b553b27f1602409e58b19') in 0.054670 seconds 
+  Import took 0.059184 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Textures/Meat/Chicken.png
-  artifactKey: Guid(9adfb321eb1601c45b70aa6aef7b0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Meat/Chicken.png using Guid(9adfb321eb1601c45b70aa6aef7b0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f6fef08dd2e92026c5622008b2cf21') in 0.041673 seconds 
-  Import took 0.045042 seconds .
+  Time since last request: 3.483293 seconds.
+  path: Assets/Materials/Veggie 3.mat
+  artifactKey: Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Veggie 3.mat using Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2692d8279699e16bef2f5b928d0ed0be') in 0.032701 seconds 
+  Import took 0.035948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.433603 seconds.
-  path: Assets/Scripts/TextureRenderer.cs
-  artifactKey: Guid(08743975181f95b40acfd18fa4ed5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TextureRenderer.cs using Guid(08743975181f95b40acfd18fa4ed5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee45cfd226752f53d70f0f3811dbd8') in 0.009979 seconds 
-  Import took 0.015999 seconds .
+  Time since last request: 18.836723 seconds.
+  path: Assets/Materials/Veggie1.mat
+  artifactKey: Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Veggie1.mat using Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c947966346ec0925dd3c24418fd3224') in 0.032884 seconds 
+  Import took 0.037436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.749284 seconds.
+  path: Assets/Materials/Veggie4.mat
+  artifactKey: Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Veggie4.mat using Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dfdbf71edbcdf13ae86003b52ddaef') in 0.031946 seconds 
+  Import took 0.035651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.564309 seconds.
+  path: Assets/Materials/VeggieC.mat
+  artifactKey: Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/VeggieC.mat using Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82717fdd8c5618249b957b62242ae4bf') in 0.031654 seconds 
+  Import took 0.035165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 590.152622 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670802ba74268002307cd52027d0ee2a') in 0.034525 seconds 
+  Import took 0.038291 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004815 seconds.
+Registered in 0.005581 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000217F48076F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA811840 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000021909266C60 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F37020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000219111991D0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F48076F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F37020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002190DAE4010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA0E1270 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000021908ADA910 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F37020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002190E8E2080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F945F270 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file data-000002191207B080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9808020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000021909123010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021649D4E810 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-0000021908C8DBE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4A23990 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000021910CF7020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA163480 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-000002177E4B1080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDB86D70 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-000002190D557080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4E08BC0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA5CB010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000021908AA2010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F41E30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000021908DB2F80 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F91CF620 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000021908DB9290 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDA2B400 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-0000021911B84B90 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4392230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-00000218DEAE85A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9038230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-00000219092C4700 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FC9BAA20 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002190EE86E60 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4E05DE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-0000021934F3A7E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FC7B0010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-000002190F63A010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4779550 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-00000219125EBE30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA5F1220 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000021911730080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F92F8020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000002190E8E2080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDAF4010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file data-0000021908AFD010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8DE13C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-0000021912670440 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA35BDF0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-00000219094DD630 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA5F1220 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-0000021911730080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
@@ -357,46 +379,510 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, th
 
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.478 seconds
+- Completed reload, in  1.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1479ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (1375ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (444ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 2.727700 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.483600 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 260.158867 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1857f16106b145e74fe5989b58963c') in 0.074011 seconds 
+  Import took 0.077492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Prefabs/Veggie.prefab
+  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f459258636fc4274d0e3eb6391a3707') in 0.035703 seconds 
+  Import took 0.038304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Prefabs/Meat.prefab
+  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c926e0eee75da64feb61b403838d0f') in 0.034859 seconds 
+  Import took 0.037419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.022265 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a754fa618860600f942e43aca4dd566') in 0.035100 seconds 
+  Import took 0.038061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.169668 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f16f940af52a36e0472c991fac57db') in 0.031013 seconds 
+  Import took 0.034268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570911 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a26e7e6f29280eda1db2c6034e8a3a') in 0.031974 seconds 
+  Import took 0.035033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376746 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410ec3a50537b85597597562235c3ff8') in 0.032438 seconds 
+  Import took 0.036096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005275 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911E02780 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021910790030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911D4E9F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219121AD010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908ADA910 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911DA66C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002191207B980 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021909123010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908C8CCE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190F43D020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002177E4B1080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908ACFEA0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911D4E9F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911F12970 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908DB2F80 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935365020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911D54F40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021912069BC0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021909174010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190DFCA9F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021912641890 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021910C86010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911AB8E50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219121AD010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190D9B2030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190F23F5A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E7CDE50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190DDBF450 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190D548030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 4.277100 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.104100 ms MarkObjects: 3.925700 ms  DeleteObjects: 0.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.605947 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c082506f3292c9442522df4b4cc9ed3e') in 0.079206 seconds 
+  Import took 0.082507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.978216 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e0de83bbcddeda7bc3beeaf827d950') in 0.033080 seconds 
+  Import took 0.036602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.387184 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60471a088c4e3b171b1b3c88ccb66a5') in 0.034708 seconds 
+  Import took 0.039499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006984 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60471a088c4e3b171b1b3c88ccb66a5') in 0.031136 seconds 
+  Import took 0.035350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402222 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2bb5b85cbb797cf21728aabc58996c') in 0.035011 seconds 
+  Import took 0.038738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005346 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2bb5b85cbb797cf21728aabc58996c') in 0.035334 seconds 
+  Import took 0.041112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.141221 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67bddccccb89cff27b1d16f1f44293') in 0.035439 seconds 
+  Import took 0.039915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007023 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67bddccccb89cff27b1d16f1f44293') in 0.029433 seconds 
+  Import took 0.032484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319209 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64ef208c4f846e233759796a9789117') in 0.043575 seconds 
+  Import took 0.047274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771415 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bbb90db9c4df579554f63015fc0617') in 0.032134 seconds 
+  Import took 0.036245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574403 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a3fbd2d24d824f465cbac21c92da0') in 0.035241 seconds 
+  Import took 0.038967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007720 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a3fbd2d24d824f465cbac21c92da0') in 0.031323 seconds 
+  Import took 0.034493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.392876 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d90f34a0a79c8bb33d2a321ee37eeb') in 0.030585 seconds 
+  Import took 0.034670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008856 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d90f34a0a79c8bb33d2a321ee37eeb') in 0.030593 seconds 
+  Import took 0.033494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396800 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efcc404417b510b55c2ba03c7901191') in 0.031221 seconds 
+  Import took 0.035252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.441271 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9f5597cbd0a5eae5393cefe6b5c8b8') in 0.038042 seconds 
+  Import took 0.043126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008421 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9f5597cbd0a5eae5393cefe6b5c8b8') in 0.031331 seconds 
+  Import took 0.034252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918552 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e2e98c9834f378ea390da4234a3bb2') in 0.037402 seconds 
+  Import took 0.041206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.629595 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d431d0bb7c634814c11899fa70793') in 0.036656 seconds 
+  Import took 0.040702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002094 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d431d0bb7c634814c11899fa70793') in 0.033143 seconds 
+  Import took 0.037152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908BD98F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219106A6020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E298070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911AAE040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908ADA910 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911DA66C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002191207C880 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021909123010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908C8C060 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190918F9F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002177E4B1080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021909262340 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908DCDCA0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908F93440 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911DF9580 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219108A8040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190D37E3F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911F42C10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190EEC62E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002191216BEC0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219126490E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908F45FE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911AB8E50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219125CCFD0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190D9B2030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935992700 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E1BD470 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911E03700 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911D74490 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1227ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1263ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1031ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
+			SetupTypeCache (358ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (500ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (362ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2240.
-Total: 3.938500 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.058800 ms MarkObjects: 3.573200 ms  DeleteObjects: 0.087000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 3.427000 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.064200 ms MarkObjects: 3.155700 ms  DeleteObjects: 0.034800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -413,67 +899,231 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003961 seconds.
+Registered in 0.004760 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000217F48076F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file data-000002190F424010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FA163480 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000021911739EB0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F984C020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002190D546020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F48076F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002190F424010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F37020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000021911AAE040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8D85E40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file data-0000021908ADA910 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F984C020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000021911DA66C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F945E370 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file data-000002191207B980 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDEC7020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000021911E9DC40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9039210 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file data-0000021908C8DBE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FC9BAA20 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000021910FB7020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FAFDA020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file data-000002177E4B1080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FD818570 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file data-0000021912572110 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4E08BC0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002190F424010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FCAAA030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000021908F93440 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F4DE9030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000021908DB2F80 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F91CF620 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000021935365020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDA292D0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file data-000002190D378B70 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F9039A50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000002190D727030 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDEF5230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file data-0000021911D6FA90 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FBF90080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000219359AF070 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDEF5230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file data-00000219126448B0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FC58C040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file data-0000021908F45FE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDEF5230 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file data-0000021911AB8E50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FCAD0240 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000021911DA66C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F936E510 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file data-000002190E8E2080 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F8F41E30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file data-000002190E7B64A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FDEF6240 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file data-00000219121660D0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217FAB71ED0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file data-0000021911D7D420 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000217F982CE30 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file data-0000021911DA66C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 5.431700 ms (FindLiveObjects: 0.332300 ms CreateObjectMapping: 0.094000 ms MarkObjects: 4.980200 ms  DeleteObjects: 0.023800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1144.831892 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e6005cf6e2a448a99e0841fa936b2') in 0.070613 seconds 
+  Import took 0.074628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.160461 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(6a5ffa6636bfc49689bc8a29c8048f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(6a5ffa6636bfc49689bc8a29c8048f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5287f30c6eeca7e67c689dfbdd1df620') in 0.388704 seconds 
+  Import took 0.391864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Prefabs/Veggie.prefab
+  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a1c3f70159a3902ed91484eee94a6e') in 0.035574 seconds 
+  Import took 0.038672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Prefabs/Meat.prefab
+  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b97ecd78c13540fdb4c9ca177c093a') in 0.033982 seconds 
+  Import took 0.037240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008153 seconds.
+  path: Assets/Prefabs/Meat.prefab
+  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b97ecd78c13540fdb4c9ca177c093a') in 0.036903 seconds 
+  Import took 0.040496 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004270 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021935A1B020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908BD98F0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935075020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935A1B020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911AAE040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908ADA910 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E0E4010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002191207C280 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935927010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021908C8C060 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021912017A50 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021909053040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219121B5DE0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935A1B020 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911E9DC40 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911DF9580 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219108A8040 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190D37B7B0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021911D824E0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219121F63A0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021935220E70 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002191263E870 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021910F0BFF0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190F631710 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219091A0E10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190DA0E010 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021910D00170 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E1BD470 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002190E2954C0 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000219091A0E10 doesn't match image C:\Users\Pink\Documents\GitHub\Nichabu\MiniAssignment\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
@@ -484,43 +1134,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
+- Completed reload, in  1.271 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1312ms)
+	ReloadAssembly (1271ms)
 		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1097ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
+			SetupTypeCache (368ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (441ms)
+			SetupLoadedEditorAssemblies (396ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1772 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
+System memory in use before: 82.2 MB.
+System memory in use after: 82.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2243.
-Total: 5.155200 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.103200 ms MarkObjects: 4.740500 ms  DeleteObjects: 0.022100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 3.269300 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.999200 ms  DeleteObjects: 0.035200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -536,562 +1186,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.390187 seconds.
-  path: Assets/Scripts/TextureRenderer.cs
-  artifactKey: Guid(08743975181f95b40acfd18fa4ed5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TextureRenderer.cs using Guid(08743975181f95b40acfd18fa4ed5db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6678a0f6b59b63e0d4f341b03751bd5') in 0.005800 seconds 
-  Import took 0.010115 seconds .
+  Time since last request: 96.045862 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39b96a263c5a65f3e6c6a96aec063a5') in 0.084907 seconds 
+  Import took 0.088124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.052275 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8788e988ec58de735bd55fdb5015938e') in 0.269894 seconds 
-  Import took 0.275213 seconds .
+  Time since last request: 7.476131 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbffdb7e1f0697b60b707d7b8190b9d') in 0.033292 seconds 
+  Import took 0.036619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.332199 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac9f6706ebccea8618b0a062513a630') in 0.033515 seconds 
-  Import took 0.037451 seconds .
+  Time since last request: 1.407488 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104531581fa94de088551d897f88d60d') in 0.031037 seconds 
+  Import took 0.034289 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.565568 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9996c0a0c58a8554a2b902e93e9af118') in 0.033987 seconds 
-  Import took 0.036932 seconds .
+  Time since last request: 1.193520 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562913a15a58f82588052ac83c5ba1e8') in 0.032128 seconds 
+  Import took 0.035054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.772404 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0610488f1dd986ab42f78481ec4cad') in 0.038171 seconds 
-  Import took 0.042672 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562913a15a58f82588052ac83c5ba1e8') in 0.030106 seconds 
+  Import took 0.033386 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.284910 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.150642 seconds 
-  Import took 0.155404 seconds .
+  Time since last request: 1.554638 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32268cdfdba7a7e66f26a4cb663d51e') in 0.032269 seconds 
+  Import took 0.037545 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.096302 seconds 
-  Import took 0.100707 seconds .
+  Time since last request: 1.211579 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d422b1f35534524ec0e266ab5dc424') in 0.032486 seconds 
+  Import took 0.035886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4f4f2da4d2ab57d901e0f40ae3f2f') in 0.106148 seconds 
-  Import took 0.109560 seconds .
+  Time since last request: 1.493785 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb389eab231875e6895b343805d1673') in 0.036006 seconds 
+  Import took 0.040239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.032662 seconds 
-  Import took 0.035819 seconds .
+  Time since last request: 0.980051 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e4727510f539b1b455ddd3ecfbb4d4') in 0.034595 seconds 
+  Import took 0.039156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4f4f2da4d2ab57d901e0f40ae3f2f') in 0.016185 seconds 
-  Import took 0.022860 seconds .
+  Time since last request: 1.399942 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(ca1e09d48f5988a499f99572ed634318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895d838e95989565269121c3a2ced541') in 0.034578 seconds 
+  Import took 0.038582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.034517 seconds 
-  Import took 0.037649 seconds .
+  Time since last request: 81.088337 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(6a5ffa6636bfc49689bc8a29c8048f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(6a5ffa6636bfc49689bc8a29c8048f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a127023348ea494002eb3007d22770c9') in 0.313672 seconds 
+  Import took 0.317110 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7c8c3e3c9a45adbdca63c88707d17') in 0.053998 seconds 
-  Import took 0.058126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.278700 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be968c5de538a48f9a01be05e0b9ef70') in 0.043262 seconds 
-  Import took 0.046917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010375 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be968c5de538a48f9a01be05e0b9ef70') in 0.037801 seconds 
-  Import took 0.041826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.246370 seconds.
-  path: Assets/Materials/Veggie2.mat
-  artifactKey: Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie2.mat using Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dee4f68953efb3560ba80a6809c3a2') in 0.201617 seconds 
-  Import took 0.205125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.493848 seconds.
-  path: Assets/Materials/Veggie3.mat
-  artifactKey: Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie3.mat using Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8d374455b2e88be35934cfe306b698') in 0.018955 seconds 
-  Import took 0.022748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.796284 seconds.
-  path: Assets/Materials/Veggie 1.mat
-  artifactKey: Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 1.mat using Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd1d718b34a76704720c02ad33773ac') in 0.018695 seconds 
-  Import took 0.021673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.597574 seconds.
-  path: Assets/Materials/Veggie 4.mat
-  artifactKey: Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 4.mat using Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f7c279980f668435432e741bedca72') in 0.014826 seconds 
-  Import took 0.018254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.309905 seconds.
-  path: Assets/Materials/Veggie 1.mat
-  artifactKey: Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 1.mat using Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4bedd081845ac0bbc19840f173a002') in 0.140317 seconds 
-  Import took 0.145685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.103867 seconds.
-  path: Assets/Materials/Veggie C.mat
-  artifactKey: Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie C.mat using Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e913a1f1e480e47db091c53f92aeeab4') in 0.021410 seconds 
-  Import took 0.025157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.400031 seconds.
-  path: Assets/Textures/Veggie/Carrot.png
-  artifactKey: Guid(e2e306fba458e934c827ac4efe989886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Veggie/Carrot.png using Guid(e2e306fba458e934c827ac4efe989886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169479c3be6bee0f980399eee8552c5f') in 0.036131 seconds 
-  Import took 0.039850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.371327 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb5803759de73a2f1110fdc0a4d0b85') in 0.034041 seconds 
-  Import took 0.037860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000779 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb5803759de73a2f1110fdc0a4d0b85') in 0.041666 seconds 
-  Import took 0.046523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.076405 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029d83a7292363b7f65faefe06099770') in 0.036773 seconds 
-  Import took 0.041377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.421299 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d8588ec8693432787dbed16448a22b') in 0.038333 seconds 
-  Import took 0.043847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004551 seconds.
-  path: Assets/Prefabs/Meat.prefab
-  artifactKey: Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Meat.prefab using Guid(57ace87713e204188a9ca66af0cb6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d8588ec8693432787dbed16448a22b') in 0.046752 seconds 
-  Import took 0.051251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.547022 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8af77fdf4fa4d46603f873405624810') in 0.046378 seconds 
-  Import took 0.050858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.347970 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2206dac58e1a48fdadd6948708fc6aba') in 0.032002 seconds 
-  Import took 0.034982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.400436 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921e0b42cd9a0cd5eec6a1e1a0a31bda') in 0.044132 seconds 
-  Import took 0.047449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.411708 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e6456754ef1357266f5690935f8074') in 0.034682 seconds 
-  Import took 0.038425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.183121 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee4923915fb0a5e6ef358fa48d1ebbe') in 0.033523 seconds 
-  Import took 0.036722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.538226 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d273cad8ebdee9807f8624c02138d6b') in 0.042427 seconds 
-  Import took 0.049887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.407386 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53f189c06ab3aa2c27edafe4336e790') in 0.033440 seconds 
-  Import took 0.037651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.020551 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d401b5d46409d34f216def338cd8923') in 0.035765 seconds 
-  Import took 0.042498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.671652 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0f6df30c636e5df56289e3c5ecfa10') in 0.035537 seconds 
-  Import took 0.041431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.567375 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3fae06df859505fd721ab83cde6414') in 0.033484 seconds 
-  Import took 0.036500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.369099 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462b545d55ddb655071c6e160a2a4e40') in 0.035965 seconds 
-  Import took 0.042699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.765187 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4bb8320f533ccfcc07a4a45d88b673') in 0.034410 seconds 
-  Import took 0.038215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.570624 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e69a26844c02e395cad6b5c0d7f309') in 0.035111 seconds 
-  Import took 0.040045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.800395 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ae407a876ed83adfdc8bf5d9e7d464') in 0.035329 seconds 
-  Import took 0.039130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.518511 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a1090857b268f15ef5a08f4d1ecfa0') in 0.040501 seconds 
-  Import took 0.045441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.826267 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee262a50f81acbda21492535f92ca604') in 0.038535 seconds 
-  Import took 0.042908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.235850 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebf62292d0279b0061c16b49b9cacc8') in 0.041132 seconds 
-  Import took 0.046205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.449636 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef686dab8dc2d98a2c3e0152e79c9fde') in 0.045100 seconds 
-  Import took 0.051128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005729 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef686dab8dc2d98a2c3e0152e79c9fde') in 0.041430 seconds 
-  Import took 0.047630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.033667 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7971e32e53441178f7abb0c2b4a464') in 0.017880 seconds 
-  Import took 0.022764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010311 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7971e32e53441178f7abb0c2b4a464') in 0.014247 seconds 
-  Import took 0.018496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.917056 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d507657b3014b9a43c43bde9eb14f0e') in 0.012595 seconds 
-  Import took 0.017000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005911 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d507657b3014b9a43c43bde9eb14f0e') in 0.011845 seconds 
-  Import took 0.017173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.905446 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93163dc531f1fb51ef6113b35c427fb1') in 0.011969 seconds 
-  Import took 0.015682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008014 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93163dc531f1fb51ef6113b35c427fb1') in 0.010351 seconds 
-  Import took 0.015090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.824464 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52577d0155754c6c080c0b84db5635f') in 0.011218 seconds 
-  Import took 0.015821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004611 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52577d0155754c6c080c0b84db5635f') in 0.013851 seconds 
-  Import took 0.018440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.509391 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b8aa154cc4c46e13e669d4d7df24a8') in 0.010603 seconds 
-  Import took 0.016074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006994 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b8aa154cc4c46e13e669d4d7df24a8') in 0.012539 seconds 
-  Import took 0.016880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.831486 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba72f336913a7639448b6e10d036ef49') in 0.013804 seconds 
-  Import took 0.017910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.045102 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a9d53e30445264716c82099670322') in 0.010956 seconds 
-  Import took 0.015067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.515956 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38da61bc3b55c4c56b7191c45dc58f5f') in 0.033988 seconds 
-  Import took 0.037112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.513712 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3657cfc4f19cf9edf5baf96030ec77e') in 0.010999 seconds 
-  Import took 0.017264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005374 seconds.
-  path: Assets/Prefabs/Salmon.prefab
-  artifactKey: Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Salmon.prefab using Guid(ca4962d2203fe4246901c3b2ac2f62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3657cfc4f19cf9edf5baf96030ec77e') in 0.012457 seconds 
-  Import took 0.017943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.027526 seconds.
-  path: Assets/Prefabs/Veggie.prefab
-  artifactKey: Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Veggie.prefab using Guid(bec339c41489d7643b08da7a1575a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44edea6e2b12c4d11c37cbde0630ddc5') in 0.032798 seconds 
-  Import took 0.035900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.778628 seconds.
-  path: Assets/Materials/Bacon.mat
-  artifactKey: Guid(dc71cca2cd71f4548b54e468b7db8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bacon.mat using Guid(dc71cca2cd71f4548b54e468b7db8e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256ea2efcb3e813e5e19ef5217caf5ea') in 0.038191 seconds 
-  Import took 0.042277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Materials/Veggie C.mat
-  artifactKey: Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie C.mat using Guid(0ecc7f45b095e7347968aed44128c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc069bfaa3c9a58316f7cd30f9c7fff') in 0.039270 seconds 
-  Import took 0.043781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Materials/Veggie 4.mat
-  artifactKey: Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 4.mat using Guid(fc0e69c0414efcb4bb7641d598fa4614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005ef5426b2134811c6c7065922e5bf') in 0.038768 seconds 
-  Import took 0.044048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Materials/Veggie3.mat
-  artifactKey: Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie3.mat using Guid(ba7140809ebfe7e41847dd18ff7b077d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1652236f92835abc0dfedbc5caa1ef') in 0.038048 seconds 
-  Import took 0.041150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/Chicken.mat
-  artifactKey: Guid(be37d5b64ada9e042b0daa589a6ce8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Chicken.mat using Guid(be37d5b64ada9e042b0daa589a6ce8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b47ccb36f51086df6856a0a34405f2') in 0.039583 seconds 
-  Import took 0.043817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Materials/Salmon.mat
-  artifactKey: Guid(9d6aca835b4b30c4eaf14bbc8bc35026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Salmon.mat using Guid(9d6aca835b4b30c4eaf14bbc8bc35026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f45d5c838afcf4d4128f4bf22e9d1') in 0.038313 seconds 
-  Import took 0.041305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Materials/Veggie2.mat
-  artifactKey: Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie2.mat using Guid(46d4c68c56baf81429fd9c6e64fa3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab766c8f68f7ce7fa2670191daefcb73') in 0.038885 seconds 
-  Import took 0.042135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Materials/Veggie 1.mat
-  artifactKey: Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 1.mat using Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df8be4600d70cffe9f9884a91c2597b') in 0.036027 seconds 
-  Import took 0.039841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006335 seconds.
-  path: Assets/Materials/Veggie 1.mat
-  artifactKey: Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Veggie 1.mat using Guid(6b77b38c1ee3a4820891f0fa76f883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df8be4600d70cffe9f9884a91c2597b') in 0.033262 seconds 
-  Import took 0.037321 seconds .
+  Time since last request: 82.620257 seconds.
+  path: Assets/Materials/Meat.mat
+  artifactKey: Guid(9cbe883038756cf49bb40f17882011c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Meat.mat using Guid(9cbe883038756cf49bb40f17882011c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9cbaae45253782a663536fd7f1864f') in 0.052136 seconds 
+  Import took 0.057313 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

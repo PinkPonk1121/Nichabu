@@ -12,7 +12,7 @@ public class TextureRenderer : MonoBehaviour
     void Start()
     {
 
-        int cnt = UnityEngine.Random.Range(0, 9);
+        int cnt = UnityEngine.Random.Range(0, 10);
         if (cnt < 6)
         {
             gameObject.tag = "Meat";

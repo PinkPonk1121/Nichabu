@@ -116,7 +116,7 @@ public class Environment : MonoBehaviour
 
         //set the new position to spawn food
 
-        int randCount = UnityEngine.Random.Range(0, 9);
+        int randCount = UnityEngine.Random.Range(0, 10);
         if (randCount < 6)
         {
             food.tag = "Meat";
