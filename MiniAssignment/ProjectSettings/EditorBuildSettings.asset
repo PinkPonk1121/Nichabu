@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene1.unity
+    path: Assets/Scenes/Scene1.unity
     guid: 380d02ab5dfb04ad297feb0ab27a725e
+  - enabled: 0
+    path: Assets/Scenes/EndlessMode.unity
+    guid: 9ddd9cb62ac5b4d5c81c285282db9c27
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 663c5db54c82446b8ae253b51639a421, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 657b5177a19a4431db585e08da1d38d9, type: 2}

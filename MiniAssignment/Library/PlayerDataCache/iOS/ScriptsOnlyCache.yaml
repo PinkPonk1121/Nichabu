@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Environment
-    - GameControl
     - Pot
     - TextureRenderer
     Unity.Rider.Editor.dll:
@@ -42,7 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scene1.unity:
+    Assets/Scenes/Scene1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -78,47 +77,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2026}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2048}
+      Script: {instanceID: 1656}
     - Class: 114
-      Script: {instanceID: 2190}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 2120}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2470}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2478}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3302}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 4164}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4444}
+      Script: {instanceID: 4238}
     - Class: 114
-      Script: {instanceID: 4622}
+      Script: {instanceID: 4544}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 5016}
-    - Class: 114
-      Script: {instanceID: 5236}
+      Script: {instanceID: 4852}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,7 +199,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 4c08f59528ae38084ff20223b5ab6827
+      Hash: 1b2e566ac0bc4520c4b19eb213bb910e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -230,6 +227,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pot2
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -370,6 +373,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 76dd662f2d9f27d52386495fa6a95651
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameControl2
+  - hash:
+      serializedVersion: 2
       Hash: 0c5108545fb925730d4d5887ebcdd20c
     assemblyName: Unity.XR.ARSubsystems.dll
     namespaceName: UnityEngine.XR.ARSubsystems
@@ -488,6 +497,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 816993d037423ea23db8043e39f5cc01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Environment2
+  - hash:
+      serializedVersion: 2
+      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextureRenderer2
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -856,5 +877,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 9
   scenePathNames:
-  - Assets/Scene1.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build
+  - Assets/Scenes/Scene1.unity
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build1

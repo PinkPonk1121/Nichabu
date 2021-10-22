@@ -27,21 +27,21 @@ public class Pot : MonoBehaviour
         //if the pot collide with object with "Meat" tag
         if (collision.gameObject.tag == "Meat"){
             //increase the score
-            GameControl.score++;
+            Environment.score++;
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Veggie")
         {
             //increase the score
-            GameControl.score--;
+            Environment.score--;
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Salmon")
         {
             //increase the score
-            GameControl.score += 5;
+            Environment.score += 5;
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, depth, foodMat, salmon));
         }
