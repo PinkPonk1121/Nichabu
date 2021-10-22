@@ -14,7 +14,7 @@ public class Environment : MonoBehaviour
     public TMPro.TextMeshProUGUI timeText;
     public TMPro.TextMeshProUGUI scoreText;
 
-    public int level = 1;
+    private int level = 1;
 
     private int numOfItems = 1;
     public int randCount;
@@ -59,7 +59,7 @@ public class Environment : MonoBehaviour
         {
             // Game over, stop the time
             Time.timeScale = 0;
-            if (level == 1 && score == 20)
+            if (level == 1 && score >= 20)
             {
                 level = 2;
                 score = 0;
