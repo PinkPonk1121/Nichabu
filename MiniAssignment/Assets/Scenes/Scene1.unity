@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -840,7 +840,6 @@ GameObject:
   - component: {fileID: 1509657763}
   - component: {fileID: 1509657762}
   - component: {fileID: 1509657764}
-  - component: {fileID: 1509657765}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -890,36 +889,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FacePrefab: {fileID: 1589055005286389752, guid: 6a5ffa6636bfc49689bc8a29c8048f86, type: 3}
   m_MaximumFaceCount: 1
---- !u!114 &1509657765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509657761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e9e9afe07d379e4aace49f6b18f52b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numOfItems: 3
-  randCount: 0
-  itemArray: []
-  x: {fileID: 96530308}
-  y: {fileID: 149209636}
-  z: {fileID: 1353926019}
-  foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
-  foodMat:
-  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
-  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
-  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
-  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
-  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
-  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
-  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
-  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
-  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
-  plane: []
 --- !u!1 &1534986537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,21 +1295,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940943263}
   m_CullTransparentMesh: 1
---- !u!114 &2307733090595968114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4944936162476538952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01cc73f06617f75499adb89614c35ec0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 100
-  timeText: {fileID: 1940943265}
-  scoreText: {fileID: 650978887}
 --- !u!4 &4494510112445871833
 Transform:
   m_ObjectHideFlags: 0
@@ -1365,7 +1319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494510112445871833}
-  - component: {fileID: 2307733090595968114}
+  - component: {fileID: 4944936162476538953}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -1373,3 +1327,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4944936162476538953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944936162476538952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9e9afe07d379e4aace49f6b18f52b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 100
+  timeText: {fileID: 1940943265}
+  scoreText: {fileID: 650978887}
+  numOfItems: 3
+  randCount: 0
+  itemArray: []
+  x: {fileID: 96530308}
+  y: {fileID: 149209636}
+  z: {fileID: 1353926019}
+  foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
+  foodMat:
+  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
+  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
+  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
+  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
+  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
+  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
+  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
+  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
+  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
+  plane: []

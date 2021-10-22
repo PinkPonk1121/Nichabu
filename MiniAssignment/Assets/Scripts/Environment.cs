@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,13 @@ using UnityEngine.XR.ARFoundation;
 
 public class Environment : MonoBehaviour
 {
+    // Score and time
+    public static int score;
+    public float time;
+
+    // Text Canvas
+    public TMPro.TextMeshProUGUI timeText;
+    public TMPro.TextMeshProUGUI scoreText;
 
     public int numOfItems = 1;
     public int randCount;
@@ -35,7 +43,22 @@ public class Environment : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
+    {
+        // While the game is running
+        if (time >= 0)
+        {
+            // Countdown timer
+            time -= Time.deltaTime;
+            // Update Canvas
+            timeText.text = "Time Remaining: " + Math.Round(time);
+            scoreText.text = "Score: " + score;
+        }
+        else
+        {
+            // Game over, stop the time
+            Time.timeScale = 0;
+        }
+
         //get position of the screen
         Vector3 topRight = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth, Camera.current.pixelHeight, 1.5f));
         Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
@@ -91,7 +114,7 @@ public class Environment : MonoBehaviour
                 y.text = depth.ToString();
 
                 //create new position to spawn the meat after the meat reach the bottom
-                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
                 itemArray[i].transform.position = spawnPosition;  
                 //change the rotation according to the rotation of the camera
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
@@ -112,7 +135,7 @@ public class Environment : MonoBehaviour
         var foodBody = food.GetComponent<Rigidbody>();
         foodBody.velocity = Vector3.zero;
         //wait for 1-2 second 
-        yield return new WaitForSeconds(Random.Range(1f, 2f));
+        yield return new WaitForSeconds(UnityEngine.Random.Range(1f, 2f));
 
         //set the new position to spawn food
 
@@ -120,12 +143,12 @@ public class Environment : MonoBehaviour
         if (randCount < 6)
         {
             food.tag = "Meat";
-            food.GetComponent<Renderer>().material = foodMat[Random.Range(0, 3)];
+            food.GetComponent<Renderer>().material = foodMat[UnityEngine.Random.Range(0, 3)];
         }
         else if (randCount < 9)
         {
             food.tag = "Veggie";
-            food.GetComponent<Renderer>().material = foodMat[Random.Range(3, foodMat.Length)];
+            food.GetComponent<Renderer>().material = foodMat[UnityEngine.Random.Range(3, foodMat.Length)];
         }
         else
         {
@@ -133,7 +156,7 @@ public class Environment : MonoBehaviour
             food.GetComponent<Renderer>().material = salmon;
         }
 
-        Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+        Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
         food.transform.position = spawnPosition; 
         //make the food visible 
         food.SetActive(true);
@@ -142,10 +165,10 @@ public class Environment : MonoBehaviour
     }
 
     Material SelectRandomMeat () {
-        return foodMat[Random.Range(0, 3)];
+        return foodMat[UnityEngine.Random.Range(0, 3)];
     }
 
     Material SelectRandomVeggie () {
-        return foodMat[Random.Range(3, foodMat.Length)];
+        return foodMat[UnityEngine.Random.Range(3, foodMat.Length)];
     }
 }
