@@ -62,12 +62,25 @@ public class Environment : MonoBehaviour
             if (level == 1 && score >= 20)
             {
                 level = 2;
-                score = 0;
-                time = 60;
+                time = 45;
+                Time.timeScale = 1;
+            }
+            else if (level == 2 && score >= 50)
+            {
+                level = 3;
+                time = 75;
+                Time.timeScale = 1;
+            }
+            else if (level == 3 && score >= 150)
+            {
+                level = 4;
+                time = 45;
+                Time.timeScale = 1;
+                scoreText.text = "You Won!";
             }
             else
             {
-                scoreText.text = "GAMEOVER";
+                scoreText.text = "GAMEOVER: final level is " + level;
             }
         }
 
