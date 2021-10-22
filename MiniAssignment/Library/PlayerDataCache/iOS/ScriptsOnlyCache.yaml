@@ -41,7 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scenes/Scene1.unity:
+    Assets/Scenes/StoryMode.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -75,47 +75,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 1656}
+      Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 1800}
+      Script: {instanceID: 2206}
     - Class: 114
-      Script: {instanceID: 2120}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2884}
     - Class: 114
-      Script: {instanceID: 2500}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2922}
     - Class: 114
-      Script: {instanceID: 2586}
+      Script: {instanceID: 2990}
     - Class: 114
-      Script: {instanceID: 2636}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3710}
     - Class: 114
-      Script: {instanceID: 3780}
+      Script: {instanceID: 4184}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 4238}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 4852}
+      Script: {instanceID: 5256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -199,7 +199,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 1b2e566ac0bc4520c4b19eb213bb910e
+      Hash: 52e2e69d3161cdc0d913db46b0495b1e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -329,12 +329,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: collide
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -877,5 +871,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 9
   scenePathNames:
-  - Assets/Scenes/Scene1.unity
+  - Assets/Scenes/StoryMode.unity
   playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build1

@@ -16,7 +16,7 @@ public class Environment : MonoBehaviour
 
     public int level = 1;
 
-    public int numOfItems = 1;
+    private int numOfItems = 1;
     public int randCount;
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
