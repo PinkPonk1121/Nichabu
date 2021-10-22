@@ -32,9 +32,9 @@ public class Environment : MonoBehaviour
     public Material[] foodMat;
     public Material salmon;
 
-    private Pot pot;
+    private static Pot pot;
     public GameObject[] plane;
-    ARFaceManager faceManager;
+    static ARFaceManager faceManager;
 
     void Start()
     {
@@ -103,27 +103,28 @@ public class Environment : MonoBehaviour
                 foodBody.velocity = Vector3.zero;
                 
                 //get depth of the pot
-                Vector3 potPos = new Vector3(0f,0f,0f);
-                Vector3 camPos = Camera.current.transform.position;
-                foreach (ARFace face in faceManager.trackables)
-                {
-                    if (pot == null){
-                        pot = face.GetComponentInChildren<Pot>();
-                    }
-                    x.text = "Face position" + face.transform.position.ToString();
-                    potPos = pot.transform.position;
-                    if (pot != null){
-                        z.text = "Pot position" + pot.transform.position.ToString();
-                    }
-                    else{
-                        z.text = "Pot position is null";
-                    }
-                }
-                Vector3 camToPot = potPos - camPos;
-                Vector3 camFor = Camera.current.transform.forward;
-                Vector3 camToPlane = Vector3.Project(camToPot, camFor);
-                float depth = camToPlane.magnitude;
-                y.text = depth.ToString();
+                // Vector3 potPos = new Vector3(0f,0f,0f);
+                // Vector3 camPos = Camera.current.transform.position;
+                // foreach (ARFace face in faceManager.trackables)
+                // {
+                //     if (pot == null){
+                //         pot = face.GetComponentInChildren<Pot>();
+                //     }
+                //     x.text = "Face position" + face.transform.position.ToString();
+                //     potPos = pot.transform.position;
+                //     if (pot != null){
+                //         z.text = "Pot position" + pot.transform.position.ToString();
+                //     }
+                //     else{
+                //         z.text = "Pot position is null";
+                //     }
+                // }
+                // Vector3 camToPot = potPos - camPos;
+                // Vector3 camFor = Camera.current.transform.forward;
+                // Vector3 camToPlane = Vector3.Project(camToPot, camFor);
+                // float depth = camToPlane.magnitude;
+                // y.text = depth.ToString();
+                float depth = cameraDepth();
 
                 //create new position to spawn the meat after the meat reach the bottom
                 Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
@@ -133,14 +134,11 @@ public class Environment : MonoBehaviour
                 //make the meat visible
                 itemArray[i].SetActive(true);
             }
-
-            
-
         }
     }
 
     //coroutines for respawn the food
-    public static IEnumerator RespawnFood(GameObject food, float depth, Material[] foodMat, Material salmon) {
+    public static IEnumerator RespawnFood(GameObject food, Material[] foodMat, Material salmon) {
         //set the food to invisible
         food.SetActive(false);
         //set the velocity to zero
@@ -167,7 +165,7 @@ public class Environment : MonoBehaviour
             food.tag = "Salmon";
             food.GetComponent<Renderer>().material = salmon;
         }
-
+        float depth = Environment.cameraDepth();
         Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
         food.transform.position = spawnPosition; 
         //make the food visible 
@@ -182,5 +180,30 @@ public class Environment : MonoBehaviour
 
     Material SelectRandomVeggie () {
         return foodMat[UnityEngine.Random.Range(3, foodMat.Length)];
+    }
+
+    private static float cameraDepth(){
+        Vector3 potPos = new Vector3(0f,0f,0f);
+        Vector3 camPos = Camera.current.transform.position;
+        foreach (ARFace face in faceManager.trackables)
+        {
+            if (pot == null){
+                pot = face.GetComponentInChildren<Pot>();
+            }
+            // x.text = "Face position" + face.transform.position.ToString();
+            potPos = pot.transform.position;
+            // if (pot != null){
+            //     z.text = "Pot position" + pot.transform.position.ToString();
+            // }
+            // else{
+            //     z.text = "Pot position is null";
+            // }
+        }
+        Vector3 camToPot = potPos - camPos;
+        Vector3 camFor = Camera.current.transform.forward;
+        Vector3 camToPlane = Vector3.Project(camToPot, camFor);
+        float depth = camToPlane.magnitude;
+        // y.text = depth.ToString();
+        return depth;
     }
 }
