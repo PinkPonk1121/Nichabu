@@ -1,0 +1,26 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-98755cab9cb254ccdbc870f43e494f76
+# Starting compiling UnityEngine.UI.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fce3aa9ebfd254949b749914d8ab536e
+# Starting compiling Unity.Timeline.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1d6bdb23da41f449b86ce8a8e1dfdbe6
+# Starting compiling Unity.TextMeshPro.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-13e50c43250df445aadb8e2f7bc45594
+# Starting compiling Unity.Subsystem.Registration.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d645215d25ae84976a0b8bc2be955c60
+# Starting compiling UnityEngine.SpatialTracking.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-aeb7fa21b89c04084a5c2ce8310c5841
+# Starting compiling Unity.XR.Management.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4c62d6048585340bbb2fc7a6e3142957
+# Starting compiling Unity.XR.ARSubsystems.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-29f5e4089b42440e19f09b64db2aa0f4
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c551a3d101d604bb190670311739a095
+# Starting compiling Unity.XR.ARKit.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-dfe2a56d856874d13bb30e43473c5884
+# Starting compiling Unity.XR.ARKit.FaceTracking.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e2ab6344438f940b2a6c77d739a32464
+# Starting compiling Unity.XR.ARFoundation.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-477b79b355e46433d888c30041641214
+# Starting compiling Assembly-CSharp.dll
+/Applications/2020.3.17f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bf509199313bc48078709a636f1023e6

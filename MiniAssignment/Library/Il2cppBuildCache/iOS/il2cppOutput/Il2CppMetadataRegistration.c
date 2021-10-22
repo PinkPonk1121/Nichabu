@@ -24,17 +24,27 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 {
 	1870,
 	g_Il2CppGenericTypes,
-	1211,
+	1212,
 	g_Il2CppGenericInstTable,
-	13793,
+	13794,
 	g_Il2CppGenericMethodFunctions,
+<<<<<<< Updated upstream
 	7994,
+=======
+	8003,
+>>>>>>> Stashed changes
 	g_Il2CppTypeTable,
-	14679,
+	14680,
 	g_Il2CppMethodSpecTable,
+<<<<<<< Updated upstream
 	2969,
 	g_FieldOffsetTable,
 	2969,
+=======
+	2975,
+	g_FieldOffsetTable,
+	2975,
+>>>>>>> Stashed changes
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,

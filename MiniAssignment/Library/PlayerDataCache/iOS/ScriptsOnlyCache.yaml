@@ -2,8 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Environment
+    - Environment2
     - GameControl
+    - GameControl2
     - Pot
+<<<<<<< Updated upstream
+=======
+    - Pot2
+    - TextureRenderer
+>>>>>>> Stashed changes
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -41,7 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scene1.unity:
+    Assets/Scenes/EndlessMode.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -87,6 +94,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2468}
     - Class: 114
+<<<<<<< Updated upstream
       Script: {instanceID: 2496}
     - Class: 114
       Script: {instanceID: 2512}
@@ -116,6 +124,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4840}
     - Class: 114
       Script: {instanceID: 21222}
+=======
+      Script: {instanceID: 2476}
+    - Class: 114
+      Script: {instanceID: 2498}
+    - Class: 114
+      Script: {instanceID: 2514}
+    - Class: 114
+      Script: {instanceID: 2584}
+    - Class: 114
+      Script: {instanceID: 2634}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2848}
+    - Class: 114
+      Script: {instanceID: 3000}
+    - Class: 114
+      Script: {instanceID: 3294}
+    - Class: 114
+      Script: {instanceID: 3298}
+    - Class: 114
+      Script: {instanceID: 3772}
+    - Class: 114
+      Script: {instanceID: 4052}
+    - Class: 114
+      Script: {instanceID: 4230}
+    - Class: 114
+      Script: {instanceID: 4536}
+    - Class: 114
+      Script: {instanceID: 4624}
+    - Class: 114
+      Script: {instanceID: 4844}
+    - Class: 114
+      Script: {instanceID: 17018}
+    - Class: 114
+      Script: {instanceID: 17020}
+    - Class: 114
+      Script: {instanceID: 17026}
+>>>>>>> Stashed changes
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -841,11 +888,36 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+<<<<<<< Updated upstream
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Pot
+=======
+      Hash: 816993d037423ea23db8043e39f5cc01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Environment2
+  - hash:
+      serializedVersion: 2
+      Hash: 76dd662f2d9f27d52386495fa6a95651
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameControl2
+  - hash:
+      serializedVersion: 2
+      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextureRenderer2
+  - hash:
+      serializedVersion: 2
+      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pot2
+>>>>>>> Stashed changes
   platform: 9
   scenePathNames:
-  - Assets/Scene1.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build
+  - Assets/Scenes/EndlessMode.unity
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build2
