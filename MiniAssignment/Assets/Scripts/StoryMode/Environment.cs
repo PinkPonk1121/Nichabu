@@ -40,7 +40,7 @@ public class Environment : MonoBehaviour
     {
         itemArray = new GameObject[numOfItems];
         faceManager = GetComponent<ARFaceManager>();
-        
+        time = 60;
     }
 
     // Update is called once per frame

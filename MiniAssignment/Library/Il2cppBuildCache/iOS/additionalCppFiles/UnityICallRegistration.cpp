@@ -124,6 +124,26 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Application
 
+	//Start Registrations for type : UnityEngine.AudioSettings
+
+		//System.Boolean UnityEngine.AudioSettings::StartAudioOutput()
+		void Register_UnityEngine_AudioSettings_StartAudioOutput();
+		Register_UnityEngine_AudioSettings_StartAudioOutput();
+
+		//System.Boolean UnityEngine.AudioSettings::StopAudioOutput()
+		void Register_UnityEngine_AudioSettings_StopAudioOutput();
+		Register_UnityEngine_AudioSettings_StopAudioOutput();
+
+	//End Registrations for type : UnityEngine.AudioSettings
+
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper();
+		Register_UnityEngine_AudioSource_PlayHelper();
+
+	//End Registrations for type : UnityEngine.AudioSource
+
 	//Start Registrations for type : UnityEngine.Behaviour
 
 		//System.Boolean UnityEngine.Behaviour::get_enabled()

@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Environment
     - Pot
+    - Pot2
     - TextureRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -75,47 +76,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2040}
+      Script: {instanceID: 2042}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 2064}
     - Class: 114
-      Script: {instanceID: 2206}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2876}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 2922}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2992}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 3708}
     - Class: 114
-      Script: {instanceID: 3710}
+      Script: {instanceID: 3712}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 4464}
+      Script: {instanceID: 4466}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 4948}
+      Script: {instanceID: 4950}
     - Class: 114
-      Script: {instanceID: 5036}
+      Script: {instanceID: 5038}
     - Class: 114
-      Script: {instanceID: 5256}
+      Script: {instanceID: 5258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -199,7 +200,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 52e2e69d3161cdc0d913db46b0495b1e
+      Hash: ebfaf39955aa70f2cd03ae6d47e4985d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment
@@ -229,7 +230,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+      Hash: 5262228bb8f9dbe4f14c77b72e87002c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Pot2
@@ -307,7 +308,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 3d77292e275b42f71a4a2b6d4dec553d
+      Hash: ec27fbf3094ddfdcfe2e37f7fb93d5ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Pot
@@ -409,7 +410,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 0b6813aec656f4f5c3a10765b41d547b
+      Hash: fc14738331cd073b085f903f145b6578
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl
