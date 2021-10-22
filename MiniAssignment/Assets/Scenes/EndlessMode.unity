@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -435,7 +435,6 @@ GameObject:
   - component: {fileID: 1509657763}
   - component: {fileID: 1509657762}
   - component: {fileID: 1509657764}
-  - component: {fileID: 1509657765}
   - component: {fileID: 1509657766}
   m_Layer: 0
   m_Name: AR Session Origin
@@ -486,38 +485,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FacePrefab: {fileID: 8750853543566334971, guid: b62c8646faa814f9384131c8fb98f241, type: 3}
   m_MaximumFaceCount: 1
---- !u!114 &1509657765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509657761}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e9e9afe07d379e4aace49f6b18f52b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 0
-  timeText: {fileID: 0}
-  scoreText: {fileID: 0}
-  randCount: 0
-  itemArray: []
-  x: {fileID: 0}
-  y: {fileID: 0}
-  z: {fileID: 0}
-  foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
-  foodMat:
-  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
-  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
-  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
-  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
-  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
-  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
-  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
-  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
-  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
-  plane: []
 --- !u!114 &1509657766
 MonoBehaviour:
   m_ObjectHideFlags: 0

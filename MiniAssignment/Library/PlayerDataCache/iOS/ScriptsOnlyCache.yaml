@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Environment
     - Pot
-    - Pot2
     - TextureRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -78,45 +77,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2042}
+      Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 2064}
+      Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 2206}
     - Class: 114
-      Script: {instanceID: 2528}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2878}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2884}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 2924}
+      Script: {instanceID: 2922}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2990}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 3410}
+      Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3708}
+      Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 3712}
+      Script: {instanceID: 3710}
     - Class: 114
-      Script: {instanceID: 4186}
+      Script: {instanceID: 4184}
     - Class: 114
-      Script: {instanceID: 4466}
+      Script: {instanceID: 4464}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4950}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 5256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
