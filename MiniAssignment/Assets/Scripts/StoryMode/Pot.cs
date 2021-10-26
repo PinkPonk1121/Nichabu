@@ -34,8 +34,6 @@ public class Pot : MonoBehaviour
             Environment.score++;
             // sound pickup1
             pickup1.Play();
-            //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Veggie")
         {
@@ -43,8 +41,6 @@ public class Pot : MonoBehaviour
             Environment.score--;
             // sound pickup2
             pickup2.Play();
-            //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
         }
         if (collision.gameObject.tag == "Salmon")
         {
@@ -52,9 +48,9 @@ public class Pot : MonoBehaviour
             Environment.score += 5;
             // sound pickup1
             pickup1.Play();
-            //start to respawn food 
-            StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
         }
+        //start to respawn food 
+        StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
 
     }
 }
