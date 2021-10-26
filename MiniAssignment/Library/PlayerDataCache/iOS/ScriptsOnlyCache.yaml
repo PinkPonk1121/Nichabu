@@ -77,45 +77,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 2040}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 1656}
     - Class: 114
-      Script: {instanceID: 2206}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2120}
     - Class: 114
-      Script: {instanceID: 2876}
+      Script: {instanceID: 2470}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2478}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2922}
+      Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 2990}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 3040}
+      Script: {instanceID: 2634}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3710}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 3778}
     - Class: 114
-      Script: {instanceID: 4464}
+      Script: {instanceID: 4058}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 4236}
     - Class: 114
-      Script: {instanceID: 4948}
+      Script: {instanceID: 4542}
     - Class: 114
-      Script: {instanceID: 5036}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 5256}
+      Script: {instanceID: 4850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -872,4 +872,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/StoryMode.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build1
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build

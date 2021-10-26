@@ -142,6 +142,7 @@ public class Environment : MonoBehaviour
                 y.text = "Spawn Depth" + depth.ToString();
                 //create new position to spawn the meat after the meat reach the bottom
                 Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                // spawnPosition.z = depth;
                 itemArray[i].transform.position = spawnPosition;  
                 z.text = "Item position" + itemArray[i].transform.position;
                 //change the rotation according to the rotation of the camera
@@ -207,7 +208,7 @@ public class Environment : MonoBehaviour
             if (pot == null){
                 pot = face.GetComponentInChildren<Pot>();
             }
-            facePos = "Face position" + face.transform.position.ToString();
+            facePos = "Pot position" + pot.transform.position.ToString();
             potPos = pot.transform.position;
             // if (pot != null){
             //     z.text = "Pot position" + pot.transform.position.ToString();
@@ -219,8 +220,12 @@ public class Environment : MonoBehaviour
         Vector3 camToPot = potPos - camPos;
         Vector3 camFor = Camera.current.transform.forward;
         Vector3 camToPlane = Vector3.Project(camToPot, camFor);
-        float depth = camToPlane.magnitude;
+        
+        Vector3 screenCenter = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth/2, Camera.current.pixelHeight/2, 1.5f));
+
+        Vector3 depth = Camera.current.WorldToScreenPoint(new Vector3(screenCenter.x , screenCenter.y ,camToPlane.magnitude));
+        float depth_z = depth.z;
         // y.text = depth.ToString();
-        return (depth, facePos);
+        return (depth_z, facePos);
     }
 }
