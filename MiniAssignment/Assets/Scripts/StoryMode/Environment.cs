@@ -140,7 +140,10 @@ public class Environment : MonoBehaviour
         while (count < numOfItems)
         { 
             // Instantiate food using the position above
-            itemArray[count] = Instantiate(foodPrefab, new Vector3(screenCenter.x,screenCenter.y,1.3f), Quaternion.Euler(0f, 90f, 270f));            
+            float camdepth = cameraDepth();
+            Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
+            spawnPosition.z = camdepth;
+            itemArray[count] = Instantiate(foodPrefab,spawnPosition, Quaternion.Euler(0f, 90f, 270f)); 
             count++;
         }
         // Instantiate(itemArray[UnityEngine.Random.Range(0, 2)], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
