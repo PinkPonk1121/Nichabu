@@ -90,45 +90,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2120}
+      Script: {instanceID: 2126}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2496}
     - Class: 114
-      Script: {instanceID: 2500}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2584}
+      Script: {instanceID: 2604}
     - Class: 114
-      Script: {instanceID: 2634}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2880}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 3242}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3778}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 4100}
     - Class: 114
-      Script: {instanceID: 4236}
+      Script: {instanceID: 4280}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4590}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4688}
     - Class: 114
-      Script: {instanceID: 4850}
+      Script: {instanceID: 4912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -885,4 +885,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/EndlessMode.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/buildEndless
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/testBuild

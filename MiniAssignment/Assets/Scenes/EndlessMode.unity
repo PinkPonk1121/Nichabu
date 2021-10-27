@@ -902,7 +902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fdb7271f0af2465cb902dc54c46e5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numOfItems: 3
+  numOfItems: 1
   foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
   foodMat:
   - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
@@ -915,9 +915,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
   salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
   plane: []
-  x: {fileID: 0}
-  y: {fileID: 0}
-  z: {fileID: 0}
 --- !u!1 &1534986537
 GameObject:
   m_ObjectHideFlags: 0
