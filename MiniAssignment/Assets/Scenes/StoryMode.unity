@@ -903,17 +903,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9e9afe07d379e4aace49f6b18f52b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
-  timeText: {fileID: 0}
-  scoreText: {fileID: 0}
+  time: 15
+  timeText: {fileID: 1940943265}
+  scoreText: {fileID: 650978887}
   randCount: 0
-  itemArray: []
-  x: {fileID: 0}
-  y: {fileID: 0}
-  z: {fileID: 0}
-  foodPrefab: {fileID: 0}
-  foodMat: []
-  salmon: {fileID: 0}
+  itemArray:
+  - {fileID: 0}
+  x: {fileID: 80728861}
+  y: {fileID: 1004838400}
+  z: {fileID: 1357477326}
+  foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
+  foodMat:
+  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
+  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
+  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
+  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
+  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
+  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
+  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
+  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
+  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
   plane: []
 --- !u!114 &1509657766
 MonoBehaviour:
@@ -922,7 +931,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509657761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fdb7271f0af2465cb902dc54c46e5fc, type: 3}
   m_Name: 
