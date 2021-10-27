@@ -2,7 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Environment
+    - Environment2
+    - GameControl
+    - GameControl2
     - Pot
+    - Pot2
     - TextureRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -68,6 +72,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -75,47 +83,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1656}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1734}
     - Class: 114
-      Script: {instanceID: 2128}
+      Script: {instanceID: 1800}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2126}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 2522}
+      Script: {instanceID: 2496}
     - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2604}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 2880}
     - Class: 114
-      Script: {instanceID: 3822}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 4102}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 4282}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 4690}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4914}
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4280}
+    - Class: 114
+      Script: {instanceID: 4590}
+    - Class: 114
+      Script: {instanceID: 4688}
+    - Class: 114
+      Script: {instanceID: 4912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -872,4 +888,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/StoryMode.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/BuildStory
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build1
