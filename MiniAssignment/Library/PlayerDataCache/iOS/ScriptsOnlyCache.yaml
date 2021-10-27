@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Environment
+    - Environment2
+    - GameControl
+    - GameControl2
     - Pot
+    - Pot2
     - TextureRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -41,7 +44,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scenes/StoryMode.unity:
+    Assets/Scenes/EndlessMode.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -68,6 +71,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -79,7 +86,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1656}
+      Script: {instanceID: 1734}
     - Class: 114
       Script: {instanceID: 1800}
     - Class: 114
@@ -97,9 +104,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2634}
     - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
       Script: {instanceID: 2752}
     - Class: 114
+      Script: {instanceID: 2850}
+    - Class: 114
       Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3242}
     - Class: 114
       Script: {instanceID: 3300}
     - Class: 114
@@ -871,5 +884,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 9
   scenePathNames:
-  - Assets/Scenes/StoryMode.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/Build
+  - Assets/Scenes/EndlessMode.unity
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/buildEndless

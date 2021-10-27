@@ -110,7 +110,45 @@ public class Environment : MonoBehaviour
             //check if the meat reach the bottom screen
             if (itemArray[i].transform.position.y < bottomLeft.y)
             {
-                StartCoroutine(RespawnFood(itemArray[i].gameObject, foodMat, salmon));
+                //make the meat invisible
+                itemArray[i].SetActive(false);
+                //reset the velocity to 0
+                foodBody.velocity = Vector3.zero;
+                
+                //get depth of the pot
+                // Vector3 potPos = new Vector3(0f,0f,0f);
+                // Vector3 camPos = Camera.current.transform.position;
+                // foreach (ARFace face in faceManager.trackables)
+                // {
+                //     // if (pot == null){
+                //     //     pot = face.GetComponentInChildren<Pot>();
+                //     // }
+                //     x.text = "Face position" + face.transform.position.ToString();
+                //     // potPos = pot.transform.position;
+                //     // if (pot != null){
+                //     //     z.text = "Pot position" + pot.transform.position.ToString();
+                //     // }
+                //     // else{
+                //     //     z.text = "Pot position is null";
+                //     // }
+                // }
+                // Vector3 camToPot = potPos - camPos;
+                // Vector3 camFor = Camera.current.transform.forward;
+                // Vector3 camToPlane = Vector3.Project(camToPot, camFor);
+                // float depth = camToPlane.magnitude;
+                
+                (float depth, string xText) = cameraDepth();
+                x.text = xText;
+                y.text = "Spawn Depth" + depth.ToString();
+                //create new position to spawn the meat after the meat reach the bottom
+                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                // spawnPosition.z = depth;
+                itemArray[i].transform.position = spawnPosition;  
+                z.text = "Item position" + itemArray[i].transform.position;
+                //change the rotation according to the rotation of the camera
+                itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
+                //make the meat visible
+                itemArray[i].SetActive(true);
             }
         }
     }

@@ -78,6 +78,7 @@ public class Environment2 : MonoBehaviour
                 float depth = camToPlane.magnitude;
                 //create new position to spawn the meat after the meat reach the bottom
                 Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                spawnPosition.z = depth;
                 itemArray[i].transform.position = spawnPosition;  
                 //change the rotation according to the rotation of the camera
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
