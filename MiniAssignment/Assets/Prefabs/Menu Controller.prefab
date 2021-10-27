@@ -40,7 +40,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6998680195069363516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c70f5c7656a8aae40a2b93bf2bfb37e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4be700b175b02a2449014e8934badf0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   menuScene: MainMenu

@@ -3,18 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.UI;
 
 public class Environment : MonoBehaviour
 {
     // Score and time
     public static int score;
-    public float time;
+    public static float time;
 
     // Text Canvas
     public TMPro.TextMeshProUGUI timeText;
     public TMPro.TextMeshProUGUI scoreText;
 
-    private int level = 1;
+    public static int level = 1;
 
     private int numOfItems = 1;
     public int randCount;
@@ -36,16 +37,28 @@ public class Environment : MonoBehaviour
     public GameObject[] plane;
     static ARFaceManager faceManager;
 
+    // For Game Over screen
+    public GameObject gameOverPF;
+    public Sprite[] gameOverSprite;
+    public Button gameOverButton;
+    public Image gameOverIcon;
+    public TMPro.TextMeshProUGUI gameOverScore;
+    public TMPro.TextMeshProUGUI gameOverLevel;
+    public TMPro.TextMeshProUGUI gameOverText;
+    public TMPro.TextMeshProUGUI retryText;
+
     void Start()
-    {
+    {   
+        gameOverPF.SetActive(false);
         itemArray = new GameObject[numOfItems];
         faceManager = GetComponent<ARFaceManager>();
+        score = 0;
         time = 60;
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         // While the game is running
         if (time >= 0)
         {
@@ -54,33 +67,65 @@ public class Environment : MonoBehaviour
             // Update Canvas
             timeText.text = "Time Remaining: " + Math.Round(time);
             scoreText.text = "Score: " + score + "     Level: " + level;
+
+            // vvv For debugging - Delete when done -----------
+            if (Input.GetKey("up")) {
+                score++;
+            }
+
+            if (Input.GetKey("down")) {
+                time--;
+            }
+            // ^^^ For debugging - Delete when done -----------
+
+            // Hide game over screen
+            gameOverPF.SetActive(false);
         }
         else
         {
-            // Game over, stop the time
+            // Game over
             Time.timeScale = 0;
             if (level == 1 && score >= 20)
-            {
-                level = 2;
-                time = 45;
-                Time.timeScale = 1;
+            {   
+                gameOverIcon.overrideSprite = gameOverSprite[1];
+                gameOverButton.onClick.AddListener(ContinueStory1);
+                gameOverText.text = "Level 1 Complete!";
+                gameOverLevel.text = "Continue to level 2?";
+                gameOverScore.text = "Your Score: " + score;
+                retryText.text = "Continue";
+                gameOverPF.SetActive(true);
             }
             else if (level == 2 && score >= 50)
-            {
-                level = 3;
-                time = 75;
-                Time.timeScale = 1;
+            {   
+                gameOverIcon.overrideSprite = gameOverSprite[1];
+                gameOverButton.onClick.AddListener(ContinueStory2);
+                gameOverText.text = "Level 2 Complete!";
+                gameOverLevel.text = "Continue to level 3?";
+                gameOverScore.text = "Your Score: " + score;
+                retryText.text = "Continue";
+                gameOverPF.SetActive(true);
             }
-            else if (level == 3 && score >= 150)
+            else if (level >= 3 && score >= 150)
             {
-                level = 4;
-                time = 45;
-                Time.timeScale = 1;
+                gameOverIcon.overrideSprite = gameOverSprite[1];
+                gameOverButton.onClick.AddListener(RestartStory);
+                gameOverText.text = "CONGRATS!";
+                gameOverLevel.text = "You've completed the challenge!";
+                gameOverScore.text = "Final Score: " + score;
+                retryText.text = "Retry";
+                gameOverPF.SetActive(true);
+
                 scoreText.text = "You Won!";
             }
             else
-            {
-                scoreText.text = "GAMEOVER: final level is " + level;
+            {   
+                gameOverIcon.overrideSprite = gameOverSprite[0];
+                gameOverButton.onClick.AddListener(RestartStory);
+                gameOverText.text = "GAME OVER";
+                gameOverLevel.text = "Final Level: " + level;
+                gameOverScore.text = "Your Score: " + score;
+                retryText.text = "Retry";
+                gameOverPF.SetActive(true);
             }
         }
 
@@ -227,5 +272,31 @@ public class Environment : MonoBehaviour
         float depth_z = depth.z;
         // y.text = depth.ToString();
         return (depth_z, facePos);
+    }
+
+    // For game over menu --------------------------------
+    // Continue game, level 1 ==> level 2
+    public void ContinueStory1(){
+        time = 45;
+        level = 2;
+        score = 0;
+        Time.timeScale = 1;
+    }
+
+    // Continue game, level 2 ==> level 3
+    public void ContinueStory2(){
+        time = 75;
+        level = 3;
+        score = 0;
+        Time.timeScale = 1;
+    }
+
+    // Restart to level 1
+    public void RestartStory(){
+        score = 0;
+        level = 1;
+        time = 60;
+
+        Time.timeScale = 1;
     }
 }
