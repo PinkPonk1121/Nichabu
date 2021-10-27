@@ -10,6 +10,7 @@ public class Pot2 : MonoBehaviour
     public AudioSource pickup1;
     public AudioSource gameover;
 
+
     void Start()
     {
         
@@ -22,29 +23,35 @@ public class Pot2 : MonoBehaviour
 
         //if the pot collide with object with "Meat" tag
         if (collision.gameObject.tag == "Meat"){
+            Debug.Log("coll"+collision.gameObject.tag);
             //increase the score
             GameControl2.score++;
             // sound pickup1
             pickup1.Play();
             //start to respawn food 
+            collision.gameObject.SetActive(false);
             StartCoroutine(Environment2.RespawnFood(collision.gameObject, foodMat, salmon));
         }
-        if (collision.gameObject.tag == "Veggie")
+        else if (collision.gameObject.tag == "Veggie")
         {
+            Debug.Log("coll" + collision.gameObject.tag);
             //increase the score
             GameControl2.score--;
             GameControl2.lives--;
             // sound gameover
             gameover.Play();
+            collision.gameObject.SetActive(false);
             //start to respawn food 
             StartCoroutine(Environment2.RespawnFood(collision.gameObject, foodMat, salmon));
         }
-        if (collision.gameObject.tag == "Salmon")
-        {
+        else if (collision.gameObject.tag == "Salmon")
+        {   
+            Debug.Log("coll"+collision.gameObject.tag);
             //increase the score
             GameControl2.score += 5;
             // sound pickup1
             pickup1.Play();
+            collision.gameObject.SetActive(false);
             //start to respawn food 
             StartCoroutine(Environment2.RespawnFood(collision.gameObject, foodMat, salmon));
         }

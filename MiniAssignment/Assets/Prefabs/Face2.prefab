@@ -268,7 +268,6 @@ GameObject:
   - component: {fileID: 4555179037792412084}
   - component: {fileID: 4965709742765466573}
   - component: {fileID: 8946393142690933765}
-  - component: {fileID: 1525915716335424480}
   - component: {fileID: 2393134089519039544}
   m_Layer: 0
   m_Name: Plane
@@ -367,30 +366,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 10, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1525915716335424480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2393134089519039527}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77a16a8a5088e42c19e9cf072ded5838, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foodMat:
-  - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
-  - {fileID: 2100000, guid: be37d5b64ada9e042b0daa589a6ce8c7, type: 2}
-  - {fileID: 2100000, guid: 9cbe883038756cf49bb40f17882011c9, type: 2}
-  - {fileID: 2100000, guid: 6b77b38c1ee3a4820891f0fa76f883ba, type: 2}
-  - {fileID: 2100000, guid: 46d4c68c56baf81429fd9c6e64fa3015, type: 2}
-  - {fileID: 2100000, guid: ba7140809ebfe7e41847dd18ff7b077d, type: 2}
-  - {fileID: 2100000, guid: fc0e69c0414efcb4bb7641d598fa4614, type: 2}
-  - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
-  salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
-  pickup1: {fileID: 5349994293191423414}
-  pickup2: {fileID: 8274582329092783486}
 --- !u!114 &2393134089519039544
 MonoBehaviour:
   m_ObjectHideFlags: 0

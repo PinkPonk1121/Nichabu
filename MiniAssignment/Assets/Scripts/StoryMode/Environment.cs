@@ -49,11 +49,13 @@ public class Environment : MonoBehaviour
 
     void Start()
     {   
+        Time.timeScale = 1;
         gameOverPF.SetActive(false);
         itemArray = new GameObject[numOfItems];
         faceManager = GetComponent<ARFaceManager>();
         score = 0;
         time = 60;
+        scoreText.text = "Score: " + score + "     Level: " + level;
     }
 
     // Update is called once per frame
@@ -171,6 +173,7 @@ public class Environment : MonoBehaviour
         var foodBody = food.GetComponent<Rigidbody>();
         foodBody.velocity = Vector3.zero;
         //wait for 1-2 second 
+        yield return new WaitForSeconds(UnityEngine.Random.Range(1f, 2f));
 
         //set the new position to spawn food
         int randCount = UnityEngine.Random.Range(0, 10);
@@ -189,7 +192,6 @@ public class Environment : MonoBehaviour
             food.tag = "Salmon";
             food.GetComponent<Renderer>().material = salmon;
         }
-        yield return new WaitForSeconds(UnityEngine.Random.Range(1f, 2f));
 
         float camdepth = cameraDepth();
         Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));

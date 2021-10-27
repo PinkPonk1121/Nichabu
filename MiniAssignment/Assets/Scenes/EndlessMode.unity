@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1212,7 +1212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fdb7271f0af2465cb902dc54c46e5fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numOfItems: 3
   foodPrefab: {fileID: 8712944735796738311, guid: ca1e09d48f5988a499f99572ed634318, type: 3}
   foodMat:
   - {fileID: 2100000, guid: dc71cca2cd71f4548b54e468b7db8e18, type: 2}
@@ -1225,6 +1224,8 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 0ecc7f45b095e7347968aed44128c87f, type: 2}
   salmon: {fileID: 2100000, guid: 9d6aca835b4b30c4eaf14bbc8bc35026, type: 2}
   plane: []
+  x: {fileID: 0}
+  y: {fileID: 0}
 --- !u!1 &1534986537
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,22 +1632,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940943263}
   m_CullTransparentMesh: 1
---- !u!114 &2307733090595968114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4944936162476538952}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01cc73f06617f75499adb89614c35ec0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 100
-  timeText: {fileID: 1940943265}
-  scoreText: {fileID: 650978887}
-  gameover: {fileID: 4944936162476538954}
 --- !u!4 &4494510112445871833
 Transform:
   m_ObjectHideFlags: 0
@@ -1671,7 +1656,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494510112445871833}
-  - component: {fileID: 2307733090595968114}
   - component: {fileID: 4944936162476538953}
   - component: {fileID: 4944936162476538954}
   m_Layer: 0

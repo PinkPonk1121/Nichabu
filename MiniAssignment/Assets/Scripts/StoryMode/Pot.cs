@@ -30,7 +30,7 @@ public class Pot : MonoBehaviour
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
         }
-        if (collision.gameObject.tag == "Veggie")
+        else if (collision.gameObject.tag == "Veggie")
         {
             //increase the score
             Environment.score--;
@@ -39,7 +39,7 @@ public class Pot : MonoBehaviour
             //start to respawn food 
             StartCoroutine(Environment.RespawnFood(collision.gameObject, foodMat, salmon));
         }
-        if (collision.gameObject.tag == "Salmon")
+        else if (collision.gameObject.tag == "Salmon")
         {
             //increase the score
             Environment.score += 5;

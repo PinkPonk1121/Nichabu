@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 public class Environment2 : MonoBehaviour
 {
 
-    public int numOfItems = 1;
+    private int numOfItems = 1;
     private int randCount;
     private GameObject[] itemArray;
 
@@ -21,11 +21,14 @@ public class Environment2 : MonoBehaviour
     public GameObject[] plane;
     static ARFaceManager faceManager;
 
+    public TMPro.TextMeshProUGUI x;
+    public TMPro.TextMeshProUGUI y;
+
     void Start()
     {
+        Time.timeScale = 1;
         itemArray = new GameObject[numOfItems];
         faceManager = GetComponent<ARFaceManager>();
-        
     }
 
     // Update is called once per frame
@@ -46,6 +49,7 @@ public class Environment2 : MonoBehaviour
             Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
             spawnPosition.z = camdepth;
             itemArray[count] = Instantiate(foodPrefab,spawnPosition, Quaternion.Euler(0f, 90f, 270f)); 
+            itemArray[count].tag = "Meat";
             count++;
         }
         // Instantiate(itemArray[UnityEngine.Random.Range(0, 2)], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
@@ -76,24 +80,26 @@ public class Environment2 : MonoBehaviour
         //wait for 1-2 second 
 
         //set the new position to spawn food
-
+        yield return new WaitForSeconds(Random.Range(1f, 2f));
+        Debug.Log(food.tag);
         int randCount = UnityEngine.Random.Range(0, 10);
-        if (randCount < 6)
+         if (randCount < 6)
         {
             food.tag = "Meat";
-            food.GetComponent<Renderer>().material = foodMat[Random.Range(0, 3)];
+            food.GetComponent<Renderer>().material = foodMat[UnityEngine.Random.Range(0, 3)];
         }
         else if (randCount < 9)
         {
             food.tag = "Veggie";
-            food.GetComponent<Renderer>().material = foodMat[Random.Range(3, foodMat.Length)];
+            food.GetComponent<Renderer>().material = foodMat[UnityEngine.Random.Range(3, foodMat.Length)];
         }
         else
         {
             food.tag = "Salmon";
             food.GetComponent<Renderer>().material = salmon;
         }
-        yield return new WaitForSeconds(Random.Range(1f, 2f));
+        Debug.Log(food.tag);
+        Debug.Log(randCount);
 
         float camdepth = cameraDepth();
         Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
@@ -104,8 +110,9 @@ public class Environment2 : MonoBehaviour
         food.SetActive(true);
         //add force to the food
         foodBody.AddForce(new Vector3(0f, -0.01f, 0f), ForceMode.Impulse);
+        // Environment2.y.text = food.tag;
     }
-
+    //code ซ้ำ
     private static float cameraDepth()
     {
         Vector3 potPos = new Vector3(0f, 0f, 0f);
