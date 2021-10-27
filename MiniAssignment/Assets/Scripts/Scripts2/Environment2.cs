@@ -17,9 +17,9 @@ public class Environment2 : MonoBehaviour
     public Material[] foodMat;
     public Material salmon;
 
-    private Pot2 pot;
+    private static Pot2 pot;
     public GameObject[] plane;
-    ARFaceManager faceManager;
+    static ARFaceManager faceManager;
 
     void Start()
     {
@@ -34,7 +34,7 @@ public class Environment2 : MonoBehaviour
         //get position of the screen
         Vector3 topRight = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth, Camera.current.pixelHeight, 1.5f));
         Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
-        Vector3 screenCenter = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth/2, Camera.current.pixelHeight/2, 1.5f));
+        Vector3 screenCenter = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth/2, Camera.current.pixelHeight/2, 1.3f));
         
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
         // arRayCastMng.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
@@ -61,23 +61,23 @@ public class Environment2 : MonoBehaviour
                 itemArray[i].SetActive(false);
                 //reset the velocity to 0
                 foodBody.velocity = Vector3.zero;
-                
-                //get depth of the pot
-                Vector3 potPos = new Vector3(0f,0f,0f);
-                Vector3 screenPot = new Vector3(0f, 0f, 0f);
-                Vector3 camPos = Camera.current.transform.position;
-                foreach (ARFace face in faceManager.trackables)
-                {
-                    if (pot == null){
-                        pot = face.GetComponentInChildren<Pot2>();
-                    }
-                    potPos = pot.transform.position;
-                    screenPot = Camera.current.WorldToScreenPoint(potPos);
-                }
 
-                float depth = screenPot.z;
+                //get depth of the pot
+                //Vector3 potPos = new Vector3(0f,0f,0f);
+                //Vector3 screenPot = new Vector3(0f, 0f, 0f);
+                //Vector3 camPos = Camera.current.transform.position;
+                //foreach (ARFace face in faceManager.trackables)
+                //{
+                //    if (pot == null){
+                //        pot = face.GetComponentInChildren<Pot2>();
+                //    }
+                //    potPos = pot.transform.position;
+                //    screenPot = Camera.current.WorldToScreenPoint(potPos);
+                //}
+
+                float camdepth = cameraDepth();
                 //create new position to spawn the meat after the meat reach the bottom
-                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+                Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
                 itemArray[i].transform.position = spawnPosition;  
                 //change the rotation according to the rotation of the camera
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
@@ -91,7 +91,7 @@ public class Environment2 : MonoBehaviour
     }
 
     //coroutines for respawn the food
-    public static IEnumerator RespawnFood(GameObject food, float depth, Material[] foodMat, Material salmon) {
+    public static IEnumerator RespawnFood(GameObject food, Material[] foodMat, Material salmon) {
         //set the food to invisible
         food.SetActive(false);
         //set the velocity to zero
@@ -119,12 +119,41 @@ public class Environment2 : MonoBehaviour
             food.GetComponent<Renderer>().material = salmon;
         }
 
-        Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, depth));
+        float camdepth = cameraDepth();
+        Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
         food.transform.position = spawnPosition; 
         //make the food visible 
         food.SetActive(true);
         //add force to the food
         foodBody.AddForce(new Vector3(0f, -0.01f, 0f), ForceMode.Impulse);
+    }
+
+    private static float cameraDepth()
+    {
+        Vector3 potPos = new Vector3(0f, 0f, 0f);
+        Vector3 screenPot = new Vector3(0f, 0f, 0f);
+        //string facePos = "In";
+        foreach (ARFace face in faceManager.trackables)
+        {
+            if (pot == null)
+            {
+                pot = face.GetComponentInChildren<Pot2>();
+            }
+            potPos = pot.transform.position;
+            screenPot = Camera.current.WorldToScreenPoint(potPos);
+            //facePos = "Pot position" + pot.transform.position.ToString();
+            // if (pot != null){
+            //     z.text = "Pot position" + pot.transform.position.ToString();
+            // }
+            // else{
+            //     z.text = "Pot position is null";
+            // }
+        }
+
+
+        float depth = screenPot.z;
+        // y.text = depth.ToString();
+        return depth;
     }
 
     Material SelectRandomMeat () {
