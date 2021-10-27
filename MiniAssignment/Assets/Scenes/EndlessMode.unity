@@ -453,6 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Over
       objectReference: {fileID: 0}
+    - target: {fileID: 4392137894304281011, guid: 03f164ef06587844e9f5db47c35704f1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4712754376885926145, guid: 03f164ef06587844e9f5db47c35704f1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -616,6 +620,10 @@ PrefabInstance:
     - target: {fileID: 6513383260092152639, guid: 03f164ef06587844e9f5db47c35704f1, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969903590209219390, guid: 03f164ef06587844e9f5db47c35704f1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8995914283555856157, guid: 03f164ef06587844e9f5db47c35704f1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

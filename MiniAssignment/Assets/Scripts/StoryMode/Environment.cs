@@ -210,7 +210,7 @@ public class Environment : MonoBehaviour
         return foodMat[UnityEngine.Random.Range(3, foodMat.Length)];
     }
 
-     private static float cameraDepth()
+    private static float cameraDepth()
     {
         Vector3 potPos = new Vector3(0f, 0f, 0f);
         Vector3 camPos = Camera.current.transform.position;
