@@ -50,12 +50,12 @@ static const int32_t s_InvokerIndices[10] =
 	1108,
 	986,
 	306,
-	2030,
-	3869,
+	2027,
+	3868,
 	3814,
+	3515,
 	3516,
-	3517,
-	3514,
+	3513,
 	3819,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_InputModule_AttributeGenerators[];
