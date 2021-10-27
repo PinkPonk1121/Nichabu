@@ -8,12 +8,13 @@ public class GameControl : MonoBehaviour
     // Score and time
     public static int score;
     public float time;
+    public GameObject gameOverPF;
 
     // Text Canvas
     public TMPro.TextMeshProUGUI timeText;
     public TMPro.TextMeshProUGUI scoreText;
 
-    
+    public AudioSource gameover;
 
     // Start is called before the first frame update
     void Start()
