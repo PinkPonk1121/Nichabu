@@ -7,7 +7,7 @@ public class GameControl2 : MonoBehaviour
 {
     // Score and time
     public static int score;
-    public static int lives = 3;
+    public static int lives;
     public int HighScore = 0;
     public GameObject gameOverPF;
     
@@ -23,6 +23,8 @@ public class GameControl2 : MonoBehaviour
     void Start()
     {   
         gameOverPF.SetActive(false);
+        score = 0;
+        lives = 3;
     }
 
     // Update is called once per frame
