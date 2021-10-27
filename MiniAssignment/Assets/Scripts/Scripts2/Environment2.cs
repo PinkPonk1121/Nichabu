@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 public class Environment2 : MonoBehaviour
 {
 
-    public int numOfItems = 1;
+    private int numOfItems = 1;
     private int randCount;
     private GameObject[] itemArray;
 

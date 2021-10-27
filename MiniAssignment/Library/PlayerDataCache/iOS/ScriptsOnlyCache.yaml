@@ -1,11 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Environment2
-    - GameControl
-    - GameControl2
+    - Environment
     - Pot
-    - Pot2
     - TextureRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -44,7 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
   sceneClasses:
-    Assets/Scenes/EndlessMode.unity:
+    Assets/Scenes/StoryMode.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -71,10 +68,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -82,53 +75,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1478}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 1800}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2126}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2486}
+      Script: {instanceID: 2488}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 2498}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 2522}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2730}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 3036}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3034}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3822}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 4282}
     - Class: 114
-      Script: {instanceID: 3820}
+      Script: {instanceID: 4592}
     - Class: 114
-      Script: {instanceID: 4100}
+      Script: {instanceID: 4690}
     - Class: 114
-      Script: {instanceID: 4280}
-    - Class: 114
-      Script: {instanceID: 4590}
-    - Class: 114
-      Script: {instanceID: 4688}
-    - Class: 114
-      Script: {instanceID: 4912}
+      Script: {instanceID: 4914}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -506,7 +493,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 816993d037423ea23db8043e39f5cc01
+      Hash: a0f28c1e811dac87088c2cb44808ea01
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Environment2
@@ -884,5 +871,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 9
   scenePathNames:
-  - Assets/Scenes/EndlessMode.unity
-  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/testBuild
+  - Assets/Scenes/StoryMode.unity
+  playerPath: /Users/kittapasasivimonpan/Desktop/Nichabu/MiniAssignment/BuildStory

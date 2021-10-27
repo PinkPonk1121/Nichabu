@@ -7,7 +7,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -74,7 +74,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -83,7 +83,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -127,7 +127,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -143,7 +143,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -161,7 +161,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -193,7 +193,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -209,7 +209,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -239,7 +239,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -248,25 +248,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioSource",
-            "fullManagedTypeName": "UnityEngine.AudioSource",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioBehaviour",
-            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -275,7 +257,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -284,7 +266,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -293,7 +275,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -302,7 +284,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -311,7 +293,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -320,7 +302,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -329,7 +311,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -338,7 +320,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -347,7 +329,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -356,7 +338,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -365,7 +347,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -374,7 +356,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -383,16 +365,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -401,16 +374,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -419,7 +383,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -428,7 +392,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -437,7 +401,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -446,7 +410,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -455,7 +419,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -464,7 +428,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
@@ -473,27 +437,13 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/EndlessMode.unity"
+                "Assets/Scenes/StoryMode.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Environment2",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameControl",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameControl2",
+            "fullManagedTypeName": "Environment",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -501,13 +451,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Pot",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Pot2",
             "moduleName": "",
             "usedInScenes": []
         },

@@ -21,8 +21,6 @@
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
@@ -36,7 +34,6 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
@@ -45,11 +42,8 @@
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="Environment2" preserve="nothing"/>
-		<type fullname="GameControl" preserve="nothing"/>
-		<type fullname="GameControl2" preserve="nothing"/>
+		<type fullname="Environment" preserve="nothing"/>
 		<type fullname="Pot" preserve="nothing"/>
-		<type fullname="Pot2" preserve="nothing"/>
 		<type fullname="TextureRenderer" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
