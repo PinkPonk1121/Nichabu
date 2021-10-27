@@ -78,6 +78,7 @@ public class Environment2 : MonoBehaviour
                 float camdepth = cameraDepth();
                 //create new position to spawn the meat after the meat reach the bottom
                 Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
+                spawnPosition.z = camdepth;
                 itemArray[i].transform.position = spawnPosition;  
                 //change the rotation according to the rotation of the camera
                 itemArray[i].transform.rotation = Quaternion.Euler(0f, 90f+Camera.main.transform.localEulerAngles.y, 270f);
@@ -121,6 +122,7 @@ public class Environment2 : MonoBehaviour
 
         float camdepth = cameraDepth();
         Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
+        spawnPosition.z = camdepth;
         food.transform.position = spawnPosition; 
         //make the food visible 
         food.SetActive(true);
@@ -131,7 +133,8 @@ public class Environment2 : MonoBehaviour
     private static float cameraDepth()
     {
         Vector3 potPos = new Vector3(0f, 0f, 0f);
-        Vector3 screenPot = new Vector3(0f, 0f, 0f);
+        Vector3 camPos = Camera.current.transform.position;
+        //Vector3 screenPot = new Vector3(0f, 0f, 0f);
         //string facePos = "In";
         foreach (ARFace face in faceManager.trackables)
         {
@@ -140,7 +143,7 @@ public class Environment2 : MonoBehaviour
                 pot = face.GetComponentInChildren<Pot2>();
             }
             potPos = pot.transform.position;
-            screenPot = Camera.current.WorldToScreenPoint(potPos);
+            //screenPot = Camera.current.WorldToScreenPoint(potPos);
             //facePos = "Pot position" + pot.transform.position.ToString();
             // if (pot != null){
             //     z.text = "Pot position" + pot.transform.position.ToString();
@@ -150,8 +153,11 @@ public class Environment2 : MonoBehaviour
             // }
         }
 
+        Vector3 camToPot = potPos - camPos;
+        Vector3 camFor = Camera.current.transform.forward;
+        Vector3 camToPlane = Vector3.Project(camToPot, camFor);
 
-        float depth = screenPot.z;
+        float depth = camToPlane.magnitude;
         // y.text = depth.ToString();
         return depth;
     }
