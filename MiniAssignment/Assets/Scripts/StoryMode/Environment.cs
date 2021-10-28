@@ -46,6 +46,8 @@ public class Environment : MonoBehaviour
     public TMPro.TextMeshProUGUI gameOverLevel;
     public TMPro.TextMeshProUGUI gameOverText;
     public TMPro.TextMeshProUGUI retryText;
+    
+    private int meatChance;
 
     void Start()
     {   
@@ -55,6 +57,7 @@ public class Environment : MonoBehaviour
         faceManager = GetComponent<ARFaceManager>();
         score = 0;
         time = 60;
+        meatChance = 6;
         scoreText.text = "Score: " + score + "     Level: " + level;
     }
 
@@ -97,7 +100,7 @@ public class Environment : MonoBehaviour
                 retryText.text = "Continue";
                 gameOverPF.SetActive(true);
             }
-            else if (level == 2 && score >= 50)
+            else if (level == 2 && score >= 30)
             {   
                 gameOverIcon.overrideSprite = gameOverSprite[1];
                 gameOverButton.onClick.AddListener(ContinueStory2);
@@ -107,7 +110,7 @@ public class Environment : MonoBehaviour
                 retryText.text = "Continue";
                 gameOverPF.SetActive(true);
             }
-            else if (level >= 3 && score >= 150)
+            else if (level >= 3 && score >= 50)
             {
                 gameOverIcon.overrideSprite = gameOverSprite[1];
                 gameOverButton.onClick.AddListener(RestartStory);
@@ -177,7 +180,7 @@ public class Environment : MonoBehaviour
 
         //set the new position to spawn food
         int randCount = UnityEngine.Random.Range(0, 10);
-        if (randCount < 6)
+        if (randCount < meatChance)
         {
             food.tag = "Meat";
             food.GetComponent<Renderer>().material = foodMat[UnityEngine.Random.Range(0, 3)];
@@ -238,6 +241,7 @@ public class Environment : MonoBehaviour
         time = 45;
         level = 2;
         score = 0;
+        meatChance = 5;
         Time.timeScale = 1;
     }
 
@@ -246,6 +250,7 @@ public class Environment : MonoBehaviour
         time = 75;
         level = 3;
         score = 0;
+        meatChance = 3;
         Time.timeScale = 1;
     }
 
