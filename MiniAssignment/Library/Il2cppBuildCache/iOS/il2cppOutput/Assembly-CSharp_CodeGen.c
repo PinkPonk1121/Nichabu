@@ -96,18 +96,18 @@ extern void Environment_RestartStory_m894FADB1130316F001CE99E2F64E29DA24EDA4AC (
 extern void Environment__ctor_m7E7CE601497B649D3227F6D87B64E4DD50D95F54 (void);
 // 0x0000002A System.Void Environment::.cctor()
 extern void Environment__cctor_m01903F7B58CF3DCBFAC660F472FA4AE50D9CE24F (void);
-// 0x0000002B System.Void Environment/<RespawnFood>d__27::.ctor(System.Int32)
-extern void U3CRespawnFoodU3Ed__27__ctor_mBBD233DA12997E822CD337D602FA2CC6BC84FBDE (void);
-// 0x0000002C System.Void Environment/<RespawnFood>d__27::System.IDisposable.Dispose()
-extern void U3CRespawnFoodU3Ed__27_System_IDisposable_Dispose_m0A7E40A35220D8E3E4EA3DB66F13ACBC9F411099 (void);
-// 0x0000002D System.Boolean Environment/<RespawnFood>d__27::MoveNext()
-extern void U3CRespawnFoodU3Ed__27_MoveNext_m1FCFCCCB5646E7EF257BA19BDF84074DD16BFD3D (void);
-// 0x0000002E System.Object Environment/<RespawnFood>d__27::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CRespawnFoodU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA70AEB639FC60A3D5B1A1F26EC41318DBDED98C8 (void);
-// 0x0000002F System.Void Environment/<RespawnFood>d__27::System.Collections.IEnumerator.Reset()
-extern void U3CRespawnFoodU3Ed__27_System_Collections_IEnumerator_Reset_m145B48F345A905534DC6F723E506B393A7757A23 (void);
-// 0x00000030 System.Object Environment/<RespawnFood>d__27::System.Collections.IEnumerator.get_Current()
-extern void U3CRespawnFoodU3Ed__27_System_Collections_IEnumerator_get_Current_m0AE2913F00A87EABB6EF84A055FEB41014DCE7A3 (void);
+// 0x0000002B System.Void Environment/<RespawnFood>d__29::.ctor(System.Int32)
+extern void U3CRespawnFoodU3Ed__29__ctor_m0439B046ABF46BB3ACFD784ABC117C2EB3EF847A (void);
+// 0x0000002C System.Void Environment/<RespawnFood>d__29::System.IDisposable.Dispose()
+extern void U3CRespawnFoodU3Ed__29_System_IDisposable_Dispose_m3A30EB3B82A4D812EF397161609744A55655984F (void);
+// 0x0000002D System.Boolean Environment/<RespawnFood>d__29::MoveNext()
+extern void U3CRespawnFoodU3Ed__29_MoveNext_m809A91D952FDCAD16E5C90F8B4010267DB22DD4F (void);
+// 0x0000002E System.Object Environment/<RespawnFood>d__29::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRespawnFoodU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9F755F5CB8D34D9643CC9D58564741EBE72867FC (void);
+// 0x0000002F System.Void Environment/<RespawnFood>d__29::System.Collections.IEnumerator.Reset()
+extern void U3CRespawnFoodU3Ed__29_System_Collections_IEnumerator_Reset_m4E8AA255974FDAE4D04D7E23E18AE90DC1936BDB (void);
+// 0x00000030 System.Object Environment/<RespawnFood>d__29::System.Collections.IEnumerator.get_Current()
+extern void U3CRespawnFoodU3Ed__29_System_Collections_IEnumerator_get_Current_m9EF0428791AAD4BEFFC8FFF26FC77E6784E731B6 (void);
 // 0x00000031 System.Void GameControl::Start()
 extern void GameControl_Start_mC87BC176F09F4C6C35BE717C51E5FCC26F074496 (void);
 // 0x00000032 System.Void GameControl::Update()
@@ -174,12 +174,12 @@ static Il2CppMethodPointer s_methodPointers[59] =
 	Environment_RestartStory_m894FADB1130316F001CE99E2F64E29DA24EDA4AC,
 	Environment__ctor_m7E7CE601497B649D3227F6D87B64E4DD50D95F54,
 	Environment__cctor_m01903F7B58CF3DCBFAC660F472FA4AE50D9CE24F,
-	U3CRespawnFoodU3Ed__27__ctor_mBBD233DA12997E822CD337D602FA2CC6BC84FBDE,
-	U3CRespawnFoodU3Ed__27_System_IDisposable_Dispose_m0A7E40A35220D8E3E4EA3DB66F13ACBC9F411099,
-	U3CRespawnFoodU3Ed__27_MoveNext_m1FCFCCCB5646E7EF257BA19BDF84074DD16BFD3D,
-	U3CRespawnFoodU3Ed__27_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA70AEB639FC60A3D5B1A1F26EC41318DBDED98C8,
-	U3CRespawnFoodU3Ed__27_System_Collections_IEnumerator_Reset_m145B48F345A905534DC6F723E506B393A7757A23,
-	U3CRespawnFoodU3Ed__27_System_Collections_IEnumerator_get_Current_m0AE2913F00A87EABB6EF84A055FEB41014DCE7A3,
+	U3CRespawnFoodU3Ed__29__ctor_m0439B046ABF46BB3ACFD784ABC117C2EB3EF847A,
+	U3CRespawnFoodU3Ed__29_System_IDisposable_Dispose_m3A30EB3B82A4D812EF397161609744A55655984F,
+	U3CRespawnFoodU3Ed__29_MoveNext_m809A91D952FDCAD16E5C90F8B4010267DB22DD4F,
+	U3CRespawnFoodU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9F755F5CB8D34D9643CC9D58564741EBE72867FC,
+	U3CRespawnFoodU3Ed__29_System_Collections_IEnumerator_Reset_m4E8AA255974FDAE4D04D7E23E18AE90DC1936BDB,
+	U3CRespawnFoodU3Ed__29_System_Collections_IEnumerator_get_Current_m9EF0428791AAD4BEFFC8FFF26FC77E6784E731B6,
 	GameControl_Start_mC87BC176F09F4C6C35BE717C51E5FCC26F074496,
 	GameControl_Update_mF3B2832BCB029E9CA0F079FBA2FE9FCF1D76ACC1,
 	GameControl__ctor_mACA9C1A4FB36FD1BF79C872BB7828841782B6078,

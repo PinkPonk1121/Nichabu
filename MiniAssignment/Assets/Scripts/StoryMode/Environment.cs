@@ -17,7 +17,7 @@ public class Environment : MonoBehaviour
 
     public static int level = 1;
 
-    private int numOfItems = 1;
+    private int numOfItems = 4;
     private int randCount;
     public GameObject[] itemArray;
     public TMPro.TextMeshProUGUI x;
@@ -27,6 +27,7 @@ public class Environment : MonoBehaviour
     // public AudioSource itemSpawnSound;
     // public AudioSource itemCollectedSound;
     private int count = 0;
+    private static float speed;
 
     [SerializeField] GameObject foodPrefab;
 
@@ -47,7 +48,7 @@ public class Environment : MonoBehaviour
     public TMPro.TextMeshProUGUI gameOverText;
     public TMPro.TextMeshProUGUI retryText;
     
-    private int meatChance;
+    private static int meatChance;
 
     void Start()
     {   
@@ -58,6 +59,8 @@ public class Environment : MonoBehaviour
         score = 0;
         time = 60;
         meatChance = 6;
+        speed = -0.01f;
+        numOfItems = 2;
         scoreText.text = "Score: " + score + "     Level: " + level;
     }
 
@@ -135,12 +138,9 @@ public class Environment : MonoBehaviour
         }
 
         //get position of the screen
-        Vector3 topRight = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth, Camera.current.pixelHeight, 1.5f));
         Vector3 bottomLeft = Camera.current.ScreenToWorldPoint(new Vector3(0, 0, 1.5f));
-        Vector3 screenCenter = Camera.current.ScreenToWorldPoint(new Vector3(Camera.current.pixelWidth/2, Camera.current.pixelHeight/2, 1.5f));
         
         List<ARRaycastHit> hits = new List<ARRaycastHit>();
-        // arRayCastMng.Raycast(screenCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.Planes);
 
         while (count < numOfItems)
         { 
@@ -149,17 +149,24 @@ public class Environment : MonoBehaviour
             Vector3 spawnPosition = Camera.current.ScreenToWorldPoint(new Vector3(UnityEngine.Random.Range(0, Camera.current.pixelWidth), Camera.current.pixelHeight, camdepth));
             spawnPosition.z = camdepth;
             itemArray[count] = Instantiate(foodPrefab,spawnPosition, Quaternion.Euler(0f, 90f, 270f)); 
+            StartCoroutine(RespawnFood(itemArray[count], foodMat, salmon));
             count++;
         }
-        // Instantiate(itemArray[UnityEngine.Random.Range(0, 2)], new Vector3(screenCenter.x, screenCenter.y, 1.3f), Quaternion.Euler(0f, 90f, 270f));
         
-
+        if (itemArray.Length < numOfItems)
+        {
+            for (int i = numOfItems; i< itemArray.Length; i++)
+            {
+                itemArray[i].SetActive(false);
+            }
+        }
+        
         //loop through all meats but we only have 1 meat for now
         for (int i = 0; i < numOfItems; i++)
         {            
             var foodBody = itemArray[i].GetComponent<Rigidbody>();
             //add force to meat so the meat move downward
-            foodBody.AddForce(new Vector3(0f, -0.06f, 0f), ForceMode.Impulse);
+            foodBody.AddForce(new Vector3(0f, speed, 0f), ForceMode.Impulse);
             //check if the meat reach the bottom screen
             if (itemArray[i].transform.position.y < bottomLeft.y && itemArray[i].activeSelf)
             {
@@ -204,7 +211,7 @@ public class Environment : MonoBehaviour
         //make the food visible 
         food.SetActive(true);
         //add force to the food
-        foodBody.AddForce(new Vector3(0f, -0.01f, 0f), ForceMode.Impulse);
+        foodBody.AddForce(new Vector3(0f, speed, 0f), ForceMode.Impulse);
     }
 
     Material SelectRandomMeat () {
@@ -242,7 +249,14 @@ public class Environment : MonoBehaviour
         level = 2;
         score = 0;
         meatChance = 5;
+        speed = -0.01f;
+        for (int i = 0; i<numOfItems; i++)
+        {
+            itemArray[i].SetActive(true);
+        }
+        numOfItems = 3;
         Time.timeScale = 1;
+       
     }
 
     // Continue game, level 2 ==> level 3
@@ -251,6 +265,12 @@ public class Environment : MonoBehaviour
         level = 3;
         score = 0;
         meatChance = 3;
+        speed = -0.03f;
+        for (int i = 0; i<numOfItems; i++)
+        {
+            itemArray[i].SetActive(true);
+        }
+        numOfItems = 4;
         Time.timeScale = 1;
     }
 
@@ -259,7 +279,14 @@ public class Environment : MonoBehaviour
         score = 0;
         level = 1;
         time = 60;
-
+        meatChance = 6;
+        speed = -0.05f;
+        for (int i = 2; i<numOfItems; i++)
+        {
+            itemArray[i].SetActive(false);
+        }
+        numOfItems = 2;
         Time.timeScale = 1;
+
     }
 }
